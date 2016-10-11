@@ -1453,7 +1453,7 @@
     <title>
       <SelectUser>选择用户</SelectUser>
       <SelectMember>选择成员身份</SelectMember>
-      <AddAny>每个人</AddAny>
+      <AddAny>所有人</AddAny>
     </title>
   </permission>
   <!--
