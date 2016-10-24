@@ -79,7 +79,7 @@
       <SavedSearches>已保存的搜索</SavedSearches>
     </label>
     <title>
-      <Control>Control Sidebar</Control>
+      <Control>控制栏</Control>
       <Close>关闭边栏</Close>
     </title>
   </UISideBar>
@@ -129,7 +129,7 @@
     <title>资源管理器</title>
     <label>
       <Root>根</Root>
-      <webDavView>Open in MS Office</webDavView>
+      <webDavView>在MS Office中打开</webDavView>
     </label>
     <msg>
       <path-not-found>此元素被删除或更改。请单击刷新按钮。</path-not-found>
@@ -165,7 +165,7 @@
       <enableDragAndDrop>启用拖 &amp; 拖放：</enableDragAndDrop>
       <sortBy>排序依据:</sortBy>
       <order>顺序:</order>
-      <nodesPerPage>Items per Page:</nodesPerPage>
+      <nodesPerPage>每页显示数</nodesPerPage>
     </label>
     <action>
       <Back>#{word.close}</Back>
@@ -254,8 +254,8 @@
       <UISelectRestorePath>选择恢复路径</UISelectRestorePath>
       <UISEOForm>管理 SEO</UISEOForm>
       <UISEOToolbarForm>管理 SEO</UISEOToolbarForm>
-      <UIReadOnlyFileConfirmMessage>Open Document</UIReadOnlyFileConfirmMessage>
-      <UIDocumentAutoVersionForm>Copy Document</UIDocumentAutoVersionForm>
+      <UIReadOnlyFileConfirmMessage>打开文档</UIReadOnlyFileConfirmMessage>
+      <UIDocumentAutoVersionForm>复制文档</UIDocumentAutoVersionForm>
     </title>
     <header>
       <workspace>工作区</workspace>
@@ -598,10 +598,10 @@
       <EmptyTrash>倾倒垃圾桶</EmptyTrash>
       <WebDavView>Open in MS Office</WebDavView>
       <Download>下载</Download>
-      <OpenDocument>Remote Edit</OpenDocument>
-      <EditProperty>Edit Document Properties</EditProperty>
-      <UploadNewVersion>Upload a new version</UploadNewVersion>
-      <CreateNewVersion>Create a new version</CreateNewVersion>
+      <OpenDocument>远程编辑</OpenDocument>
+      <EditProperty>编辑文档属性</EditProperty>
+      <UploadNewVersion>上传一个新版本</UploadNewVersion>
+      <CreateNewVersion>创建一个新版本</CreateNewVersion>
     </event>
   </ECMContextMenu>
  
@@ -629,7 +629,7 @@
   -->
   <UITabPane>
     <title>
-      <UIPublishingPanel>Publication Pane</UIPublishingPanel>
+      <UIPublishingPanel>出版窗格</UIPublishingPanel>
       <UIPublicationPanel>修订</UIPublicationPanel>
       <UIPublicationSchedule>预定</UIPublicationSchedule>
       <UIPublicationPagesContainer>页</UIPublicationPagesContainer>
@@ -663,8 +663,8 @@
       <UIDocumentInfo>文档视图</UIDocumentInfo>
       <UICategoriesSelectPanel>选择类别</UICategoriesSelectPanel>
       <UISelectedCategoriesGrid>引用的类别</UISelectedCategoriesGrid>
-      <UIWorkflowPublicationActionForm>Workflow Publication Action</UIWorkflowPublicationActionForm>
-      <UIWorkflowPublicationViewForm>Workflow Publication View</UIWorkflowPublicationViewForm>
+      <UIWorkflowPublicationActionForm>工作流出版物活动</UIWorkflowPublicationActionForm>
+      <UIWorkflowPublicationViewForm>工作流出版物视图</UIWorkflowPublicationViewForm>
       <metadatasitemetadata>网站的元数据</metadatasitemetadata>
       <dcelementset>都柏林核心</dcelementset>
     </title>
@@ -679,14 +679,14 @@
     </confirm>
     <header>
       <name>名称</name>
-      <multiValue>Multi Value</multiValue>
+      <multiValue>多值</multiValue>
       <value>值</value>
       <action>操作</action>
     </header>
     <label>
-      <binary>Binary Data</binary>
+      <binary>二进制数据</binary>
       <notavailable>N/A</notavailable>
-      <cannotget>Cannot get values</cannotget>
+      <cannotget>不能得到的值</cannotget>
     </label>
     <action>
       <Close>#{word.close}</Close>
@@ -703,26 +703,26 @@
   #############################################################################
   -->
   <UIPropertyForm>
-    <title>Add/Edit Property</title>
+    <title>添加/编辑属性</title>
     <label>
       <name>名称：</name>
       <type>类型：</type>
-      <value>Value:</value>
+      <value>值:</value>
       <upload>上传:</upload>
-      <namespace>Namespace:</namespace>
-      <multiple>Multiple:</multiple>
-      <property_select>Add New Property:</property_select>
-      <value0>Value 0</value0>
-      <value1>Value 1</value1>
-      <value2>Value 2</value2>
-      <value3>Value 3</value3>
-      <value4>Value 4</value4>
-      <value5>Value 5</value5>
-      <value6>Value 6</value6>
-      <value7>Value 7</value7>
-      <value8>Value 8</value8>
-      <value9>Value 9</value9>
-      <value10>Value 10</value10>
+      <namespace>空间名称:</namespace>
+      <multiple>多个:</multiple>
+      <property_select>添加新的属性:</property_select>
+      <value0>值 0</value0>
+      <value1>值 1</value1>
+      <value2>值 2</value2>
+      <value3>值 3</value3>
+      <value4>值 4</value4>
+      <value5>值 5</value5>
+      <value6>值 6</value6>
+      <value7>值 7</value7>
+      <value8>值 8</value8>
+      <value9>值 9</value9>
+      <value10>值 10</value10>
     </label>
     <action>
       <Save>#{word.save}</Save>
@@ -730,17 +730,17 @@
       <Reset>重置</Reset>
     </action>
     <msg>
-      <name-invalid>Please enter the property name.</name-invalid>
-      <unable-create>Cannot add properties.</unable-create>
-      <value-invalid>Please enter the value.</value-invalid>
-      <node-checkedin>You must check out this node before adding a property.</node-checkedin>
-      <can-not-add>You cannot add properties to this node. This is only allowed for the node type nt:unstructured.</can-not-add>
-      <propertyName-invalid>The property name must include namespace (e.g. namespace:name).</propertyName-invalid>
-      <propertyName-exist>The property '{0}' already exists.</propertyName-exist>
-      <propertyValu-null>Some values may be null.</propertyValu-null>
-      <valueFormatEx>You cannot assign a multiple-valued value to a single-valued property.</valueFormatEx>
-      <number-format-exception>Your input value has the wrong format.</number-format-exception>
-      <property-not-exist>The property {0} doesn't exist.</property-not-exist>
+      <name-invalid>请输入属性名称。</name-invalid>
+      <unable-create>不能添加属性。</unable-create>
+      <value-invalid>请输入值。</value-invalid>
+      <node-checkedin>在添加一个属性之前，必须先检查这个节点。</node-checkedin>
+      <can-not-add>无法向该节点添加属性。只允许节点类型NT：非结构化</can-not-add>
+      <propertyName-invalid>属性名称必须包括命名空间（例如命名空间：名称）。</propertyName-invalid>
+      <propertyName-exist>属性 '{0}' 已存在。</propertyName-exist>
+      <propertyValu-null>一些值可能是空的。</propertyValu-null>
+      <valueFormatEx>不能将多个值赋值给一个单值属性。</valueFormatEx>
+      <number-format-exception>您输入的值存在错误格式</number-format-exception>
+      <property-not-exist>属性 {0} 不存在。</property-not-exist>
     </msg>
   </UIPropertyForm>
 
@@ -753,28 +753,28 @@
     <action>
       <title>
         <Edit>编辑</Edit>
-        <Delete>Remove Permission</Delete>
+        <Delete>删除权限</Delete>
       </title>
     </action>
     <header>
-      <usersOrGroups>User or Group</usersOrGroups>
-      <read>Read</read>
-      <addNode>Modify</addNode>
+      <usersOrGroups>用户或组</usersOrGroups>
+      <read>只读</read>
+      <addNode>修改</addNode>
       <remove>删除</remove>
       <action>操作</action>
     </header>
     <msg>
-      <confirm-delete-permission>Are you sure you want to remove this permission?</confirm-delete-permission>
-      <no-permission-tochange>You do not have the right to remove permission.</no-permission-tochange>
-      <no-permission-remove>You cannot remove the owner.</no-permission-remove>
-      <access-denied>Access denied. You cannot remove this permission.</access-denied>
+      <confirm-delete-permission>您确定要删除此权限吗？</confirm-delete-permission>
+      <no-permission-tochange>你没有权利取消许可。</no-permission-tochange>
+      <no-permission-remove>你不能删除所有者。</no-permission-remove>
+      <access-denied>拒绝访问。您无法删除此权限。</access-denied>
     </msg>
   </UIPermissionInfo>
   <permission>
     <title>
-      <SelectUser>Select User</SelectUser>
+      <SelectUser>选择用户</SelectUser>
       <SelectMember>选择成员</SelectMember>
-      <AddAny>Select Everyone</AddAny>
+      <AddAny>选择所有人</AddAny>
     </title>
   </permission>
   <!--
@@ -785,38 +785,38 @@
   <SelectUserOrGroup>
     <title>
       <UIGroupSelector>选择用户</UIGroupSelector>
-      <UIPermissionSelector>Select Member</UIPermissionSelector>
+      <UIPermissionSelector>选择成员</UIPermissionSelector>
       <UIGroupMemberSelector>选择成员</UIGroupMemberSelector>
     </title>
   </SelectUserOrGroup>
   <UIGroupSelector>
     <label>
-      <selectGroup>Browse and Select a Group</selectGroup>
+      <selectGroup>浏览和选择一个组</selectGroup>
       <selectUser>选择用户</selectUser>
     </label>
     <msg>
-      <not-change-owner>'{0}' is the owner of this node and has full control permission.</not-change-owner>
+      <not-change-owner>'{0}' 是此节点的所有者，并已完全控制权限。</not-change-owner>
     </msg>
   </UIGroupSelector>
   <UIPermissionForm>
     <label>
       <UIPopupWindow>请选择</UIPopupWindow>
-      <permission>UIPermissionForm</permission>
+      <permission>UI权限表</permission>
       <userOrGroup>用户或组</userOrGroup>
-      <read>Read Right</read>
-      <add_node>Modify Right</add_node>
-      <remove>Remove Right</remove>
+      <read>阅读权限</read>
+      <add_node>修改权限</add_node>
+      <remove>删除权限</remove>
     </label>
-    <title>Add a permission to that node</title>
+    <title>向该节点添加权限</title>
     <action>
       <Close>#{word.close}</Close>
       <Save>#{word.save}</Save>
       <Reset>重置</Reset>
     </action>
     <msg>
-      <checkbox-require>Please select at least one permission.</checkbox-require>
-      <userOrGroup-required>Please select a user or group before saving this permission.</userOrGroup-required>
-      <not-change-permission>You do not have the right to add a permission.</not-change-permission>
+      <checkbox-require>请至少选择一个权限。</checkbox-require>
+      <userOrGroup-required>请在保存此权限之前选择一个用户或组。</userOrGroup-required>
+      <not-change-permission>您没有权限添加权限。</not-change-permission>
       <access-denied>访问被拒绝。您不能删除此权限。</access-denied>
     </msg>
   </UIPermissionForm>
@@ -828,13 +828,13 @@
   -->
   <UINodeTypeInfo>
     <label>
-      <node-type>Node Type</node-type>
+      <node-type>节点类型</node-type>
       <name>姓名</name>
-      <item>Primary Item Name</item>
-      <super-types>Parent Types</super-types>
-      <mixin>Mixin Node Type</mixin>
-      <orderable-children>Orderable Children</orderable-children>
-      <property-def>Node Property Definition</property-def>
+      <item>主要产品名称</item>
+      <super-types>父类型</super-types>
+      <mixin>混合节点类型</mixin>
+      <orderable-children>所有的子节点</orderable-children>
+      <property-def>节点属性定义</property-def>
       <prop-name>名称</prop-name>
       <prop-type>类型</prop-type>
       <prop-multiple>Mul</prop-multiple>
@@ -843,7 +843,7 @@
       <prop-auto-create>AC</prop-auto-create>
       <prop-default-values><![CDATA[<span title="Default Values">DV</span>]]></prop-default-values>
       <prop-constraints><![CDATA[<span title="Constraints Values">CV</span>]]></prop-constraints>
-      <node-def>Child Node Definition</node-def>
+      <node-def>子节点的定义</node-def>
       <node-def-name>名称</node-def-name>
       <node-def-opv>OPV</node-def-opv>
       <node-def-ac>交流</node-def-ac>
@@ -872,8 +872,8 @@
   </UICategoryManagerSearch>
   <UIContentNameSearch>
     <label>
-      <keyword>Content Name:</keyword>
-      <location>Search in this location:</location>
+      <keyword>内容名称:</keyword>
+      <location>在这个位置搜索:</location>
     </label>
     <action>
       <Search>搜索</Search>
@@ -885,39 +885,39 @@
   </UIContentNameSearch>
   <UISimpleSearch>
     <action>
-      <MoreConstraints>Show/Hide Constraint Form</MoreConstraints>
+      <MoreConstraints>显示/隐藏约束形式</MoreConstraints>
       <Search>搜索</Search>
       <Save>#{word.save}</Save>
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <label>
-      <moreConstraints>UISimpleSearch</moreConstraints>
-      <firstOperator>Operator:</firstOperator>
-      <input>A word or phrase in content:</input>
-      <constraints>More Constraints:</constraints>
-      <nodePath>Current Location:</nodePath>
+      <moreConstraints>UI简单搜索</moreConstraints>
+      <firstOperator>运算符:</firstOperator>
+      <input>内容中的一个词或短语:</input>
+      <constraints>更多的约束:</constraints>
+      <nodePath>当前位置:</nodePath>
     </label>
     <msg>
-      <keyword-null>Please enter your keyword.</keyword-null>
+      <keyword-null>请输入您的关键字。</keyword-null>
       <not-found>没有找到结果。</not-found>
       <keyword-not-allow>不允许使用此关键字。</keyword-not-allow>
-      <value-null>Please enter your keyword or constraints.</value-null>
-      <value-save-null>Please enter a keyword or constraints before saving this query.</value-save-null>
-      <inputSearch-invalid>There are invalid characters in the search input.</inputSearch-invalid>
-      <query-invalid>The query is invalid. Please check your constraint.</query-invalid>
+      <value-null>请输入您的关键字或约束。</value-null>
+      <value-save-null>请输入一个关键字或约束，在此之前保存此查询。</value-save-null>
+      <inputSearch-invalid>在搜索输入中有无效的字符。</inputSearch-invalid>
+      <query-invalid>查询无效。请检查您的约束。</query-invalid>
     </msg>
   </UISimpleSearch>
   <ViewSearch>
     <title>
-      <UIViewSearchResult>View Template</UIViewSearchResult>
+      <UIViewSearchResult>视图模板</UIViewSearchResult>
     </title>
   </ViewSearch>
   <UISearchResult>
     <msg>
-      <not-support>There is no View template for this node.</not-support>
+      <not-support>此节点没有视图模板。</not-support>
       <empty>没有找到结果。</empty>
-      <access-denied>You cannot open this folder, either because it no longer exists or because you do not have the right to access it.</access-denied>
-      <query-invalid>The query is invalid.</query-invalid>
+      <access-denied>无法打开此文件夹，因为它已不存在，或者您没有访问它的权利。</access-denied>
+      <query-invalid>查询无效。</query-invalid>
     </msg>
     <header>
       <name>#{word.name}</name>
@@ -929,26 +929,26 @@
       <score>得分</score>
     </header>
     <title>
-      <typeASC>Sort by document type in ascending order</typeASC>
-      <typeDESC>Sort by document type in descending order</typeDESC>
-      <scoreASC>Sort by score in ascending order</scoreASC>
-      <scoreDESC>Sort by score in descending order</scoreDESC>
-      <nameASC>Sort by name in ascending order</nameASC>
-      <nameDESC>Sort by name in descending order</nameDESC>
-      <datecreatedASC>Sort by created date in ascending order</datecreatedASC>
-      <datecreatedDESC>Sort by created date in descending order</datecreatedDESC>
+      <typeASC>按文档类型升序排序</typeASC>
+      <typeDESC>按文档类型降序排序</typeDESC>
+      <scoreASC>按递增顺序排序</scoreASC>
+      <scoreDESC>按递减顺序排序</scoreDESC>
+      <nameASC>按名称顺序排序</nameASC>
+      <nameDESC>按名称递减顺序排序</nameDESC>
+      <datecreatedASC>按创建日期升序排序</datecreatedASC>
+      <datecreatedDESC>按创建日期降序排序</datecreatedDESC>
     </title>
     <tooltip>
-      <View>View this node</View>
-      <OpenFolder>Go to folder</OpenFolder>
+      <View>查看此节点</View>
+      <OpenFolder>转到文件夹</OpenFolder>
     </tooltip>
   </UISearchResult>
   <UIShowAllOwnedByUserResult>
     <msg>
-      <not-support>There is no View template for this node</not-support>
+      <not-support>此节点没有视图模板</not-support>
       <empty>没有找到结果。</empty>
-      <access-denied>You cannot view this node, either because this template is not supported or because access is denied.</access-denied>
-      <query-invalid>The query is invalid</query-invalid>
+      <access-denied>您无法查看此节点，因为此模板不被支持，或因为访问被拒绝。</access-denied>
+      <query-invalid>查询无效</query-invalid>
     </msg>
     <header>
       <name>#{word.name}</name>
@@ -966,18 +966,18 @@
       <scoreDESC>按分数降序排序</scoreDESC>
       <nameASC>按名称升序排序</nameASC>
       <nameDESC>按名称降序排序</nameDESC>
-      <datecreatedASC>Sort by Created date in ascending order</datecreatedASC>
-      <datecreatedDESC>Sort by Created date in descending order</datecreatedDESC>
+      <datecreatedASC>按创建日期的升序排序</datecreatedASC>
+      <datecreatedDESC>按创建日期的降序排序</datecreatedDESC>
     </title>
     <tooltip>
       <View>查看此节点</View>
-      <OpenFolder>Go to Folder</OpenFolder>
+      <OpenFolder>转到文件夹</OpenFolder>
     </tooltip>
   </UIShowAllOwnedByUserResult>
   <UIShowAllFavouriteResult>
     <msg>
       <not-support>没有为此节点的视图模板</not-support>
-      <empty>No results found</empty>
+      <empty>没有找到结果</empty>
       <access-denied>您不能查看此节点，因为此模板不受支持，或由于访问被拒绝。</access-denied>
       <query-invalid>查询无效</query-invalid>
     </msg>
@@ -1001,7 +1001,7 @@
       <datecreatedDESC>按创建日期降序排序</datecreatedDESC>
     </title>
     <tooltip>
-      <View>View this Node</View>
+      <View>查看此节点</View>
       <OpenFolder>转到文件夹</OpenFolder>
     </tooltip>
   </UIShowAllFavouriteResult>
@@ -1020,7 +1020,7 @@
       <type>类型</type>
       <dateCreated>创建日期</dateCreated>
       <score>分数</score>
-      <AddRemoveFavourite>Add/Remove to Favorite</AddRemoveFavourite>
+      <AddRemoveFavourite>添加/删除到最喜欢的</AddRemoveFavourite>
     </header>
     <title>
       <typeASC>按文件类型升序排序</typeASC>
@@ -1035,7 +1035,7 @@
     <tooltip>
       <View>查看此节点</View>
       <OpenFolder>转到文件夹</OpenFolder>
-      <RemoveHiddenAttribute>Remove Hidden Attribute</RemoveHiddenAttribute>
+      <RemoveHiddenAttribute>删除隐藏属性</RemoveHiddenAttribute>
     </tooltip>
   </UIShowAllHiddenResult>
   <UIShowAllTrashResult>
@@ -1073,26 +1073,26 @@
   </UIShowAllTrashResult>
   <UIConstraintsForm>
     <label>
-      <constraints>UIConstraintsForm</constraints>
+      <constraints>UI约束形式</constraints>
       <metadataProperty>属性</metadataProperty>
-      <operator>Operator</operator>
-      <contains>Contain Value</contains>
-      <notcontains>Not Contain Value</notcontains>
+      <operator>运算符</operator>
+      <contains>包含的价值</contains>
+      <notcontains>不包含的价值</notcontains>
     </label>
     <action>
       <Add>添加</Add>
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <msg>
-      <properties-required>The Property name is required.</properties-required>
-      <value-required>The Value field is required.</value-required>
-      <date-invalid>The From date must be earlier than the To date.</date-invalid>
+      <properties-required>属性名称是必需的。</properties-required>
+      <value-required>需要值字段。</value-required>
+      <date-invalid>开始日期必须早于截止日期。</date-invalid>
       <fromDate-required>开始日期是必需的。</fromDate-required>
-      <must-choose-one>You have to select at least one type.</must-choose-one>
-      <properties-null>Select properties first, then filter.</properties-null>
-      <exactly-require>You have to fill in the Value exactly before saving this constraint.</exactly-require>
-      <fromDate-invalid>Invalid type in the 'From' field. Please reselect or type correctly.</fromDate-invalid>
-      <toDate-invalid>Invalid type in the 'To' field. Please reselect or type correctly.</toDate-invalid>
+      <must-choose-one>您必须至少选择一个类型。</must-choose-one>
+      <properties-null>先选择属性，然后过滤。</properties-null>
+      <exactly-require>在保存这个约束之前，必须完全填充这个值。</exactly-require>
+      <fromDate-invalid>“从”字段为无效类型。请选择或输入正确类型。</fromDate-invalid>
+      <toDate-invalid>“到”字段为无效类型。请选择或输入正确类型。</toDate-invalid>
     </msg>
     <button>
       <label-Add>添加</label-Add>
@@ -1107,10 +1107,10 @@
   </ConstraintsForm>
   <UIConstraintForm>
     <tooltip>
-      <AddMetadataType>Add Property</AddMetadataType>
-      <AddNodeType>Add Node Type</AddNodeType>
+      <AddMetadataType>添加属性</AddMetadataType>
+      <AddNodeType>添加节点类型</AddNodeType>
       <AddCategory>添加类别</AddCategory>
-      <FindExactly>Find Exactly</FindExactly>
+      <FindExactly>精确查找</FindExactly>
     </tooltip>
     <label>
       <colon>:</colon>
@@ -1499,7 +1499,7 @@
       <import-successful>已成功导入。</import-successful>
       <filename-invalid>浏览要导入的上载文件字段的.xml 文件。</filename-invalid>
       <filetype-error>不能导入已上载的文件。.Xml 文件可能无效。</filetype-error>
-      <xml-invalid>There is an invalid character at position [row, column]:{0} in {1} file</xml-invalid>
+      <xml-invalid>在[行、列]位置上有一个无效的字符：在{1}的{0}文件中</xml-invalid>
       <mimetype-invalid>您只可以导入.xml 或.zip 文件。</mimetype-invalid>
       <access-denied>访问被拒绝。你无权在这里导入。</access-denied>
       <constraint-violation-exception>无法导入数据。在此位置不允许类型 '{0}'。</constraint-violation-exception>
@@ -1641,7 +1641,7 @@
       </title>
     </action>
     <msg>
-      <confirm-delete>确实要删除此关系吗?</confirm-delete>
+      <confirm-delete>确定要删除此关系吗?</confirm-delete>
       <can-not-add-itself>不能添加一个关系到其自身。</can-not-add-itself>
     </msg>
   </UIRelationsAddedList>
@@ -1897,7 +1897,7 @@
     <msg>
       <name-exist>'{0}' 的标记名称已经存在。</name-exist>
       <tagName-invalid>标记名称中包含一些无效的字符。</tagName-invalid>
-      <tagName-empty-or-invalid>The tag name is empty or contains some invalid characters.</tagName-empty-or-invalid>
+      <tagName-empty-or-invalid>标记名为空或包含一些无效字符。</tagName-empty-or-invalid>
       <tag-name-empty>您的标签名称为空</tag-name-empty>
       <tag-name-duplicate>输入的标记名称是重复的。</tag-name-duplicate>
       <tagName-too-long>输入的标记之一太长。标记名称必须少于 30 个字符。</tagName-too-long>
@@ -1946,7 +1946,7 @@
   -->
    <ECMPhoneFormatValidator>
      <msg>
-       <Invalid>The field '{0}' contains invalid an Phone number. Please enter another value.</Invalid>
+       <Invalid>字段“{ 0 }”包含无效的一个电话号码。请输入另一个值。</Invalid>
      </msg>
   </ECMPhoneFormatValidator>
   <ECMNameValidator>
@@ -2233,7 +2233,7 @@
   </UIDriveSelector>
   <UIJcrExplorerEditForm>
     <label>
-      <DriveNameInput>UI JCR Explorer Edit Form</DriveNameInput>
+      <DriveNameInput>UI JCR Explorer编辑形式</DriveNameInput>
     </label>
     <msg>
       <personal-usecase>当您选择个人用例时，将使用当前用户的专用驱动器。</personal-usecase>
@@ -2355,7 +2355,7 @@
     <msg>
       <create-link-problem>您不能在 '{1}' 创建节点"{0}"的链接。</create-link-problem>
       <dest-node-is-link>目标节点"{0}"已经是一个符号连接，所以您不能创建一个符号连接里面。</dest-node-is-link>
-      <selected-is-link>The selected node '{0}' is already a link. You cannot create a link that points to another link.</selected-is-link>
+      <selected-is-link>所选择的节点“{ 0 }”已经是一个链接。您无法创建指向另一个链接的链接。</selected-is-link>
       <confirm-create-link>你想要创建一个链接到此位置吗？</confirm-create-link>
     </msg>
   </UIWorkingArea>
@@ -2437,8 +2437,8 @@
       <Keepfile>保持这两个文件</Keepfile>
 <ReadOnly>Open Read-only</ReadOnly>
 <Cancel>取消</Cancel>
-      <KeepBoth>Keep Both</KeepBoth>
-      <CreateNewVersion>Create a new version</CreateNewVersion>
+      <KeepBoth>保留两个</KeepBoth>
+      <CreateNewVersion>创建一个新版本</CreateNewVersion>
     </label>
   </UIConfirmMessage>
 
@@ -2594,7 +2594,7 @@
       <nt_unstructured>内容文件夹</nt_unstructured>
       <exo_cssFolder>CSS 文件夹</exo_cssFolder>
       <exo_jsFolder>Javascript 的文件夹</exo_jsFolder>
-      <exo_linkFolder>Link Folder</exo_linkFolder>
+      <exo_linkFolder>链接文件夹</exo_linkFolder>
       <exo_webFolder>网页内容文件夹</exo_webFolder>
    </label>
   </UIFolderForm>
@@ -2607,7 +2607,7 @@
   </Comments>
   <UIDocumentInfo>
     <msg>
-      <confirm-deletecomment>确实要删除此评论吗?</confirm-deletecomment>
+      <confirm-deletecomment>确定要删除此评论吗?</confirm-deletecomment>
     </msg>
   </UIDocumentInfo>
 
@@ -3004,8 +3004,8 @@
     <label>
       <introduction>你可以安排您的文档的发布。选择你想看到您发布的文档的日期</introduction>
       <no-schedule-info>您的文档没有发布时间表</no-schedule-info>
-      <UIPublicationPanelStartDateInput>Start Publication date</UIPublicationPanelStartDateInput>
-      <UIPublicationPanelEndDateInput>End Publication date</UIPublicationPanelEndDateInput>
+      <UIPublicationPanelStartDateInput>开始发布日期日期</UIPublicationPanelStartDateInput>
+      <UIPublicationPanelEndDateInput>结束出版日期</UIPublicationPanelEndDateInput>
     </label>
     <msg>
       <save-finished>您新的发布时间表已成功保存。</save-finished>
@@ -3080,9 +3080,9 @@
       <ShowDrives>显示驱动器</ShowDrives>
     </DrivesArea>
     <msg>
-      <no-view-found>There are no views applied for your access permission in drive '{0}'.</no-view-found>
+      <no-view-found>在驱动器“{ 0 }”中没有应用您的访问权限的视图。</no-view-found>
       <access-denied>访问被拒绝。您可能没有权限在驱动器 '{0}' 的工作区中。</access-denied>
-      <empty-drives>Access denied. Either there is no drive in this repository or you do not have permission to access any drives in this repository.</empty-drives>
+      <empty-drives>拒绝访问。在这个存储库中没有驱动器，或者您没有访问该存储库中的任何驱动器的权限。</empty-drives>
       <workspace-not-exist>驱动器 '{0}' 存储在一个无法识别的工作区中。请重新配置此驱动器。</workspace-not-exist>
     </msg>
   </UIDrivesArea>
@@ -3113,7 +3113,7 @@
   <Electronic>电子</Electronic>
   <Paper>Paper</Paper>
   <NONE>无</NONE>
-  <CLASSIFIED>Classified</CLASSIFIED>
+  <CLASSIFIED>分类</CLASSIFIED>
   <UNCLASSIFIED>未分类</UNCLASSIFIED>
   <NOCONTRACT>没有合同</NOCONTRACT>
   <one-minute>一分钟</one-minute>
@@ -3171,7 +3171,7 @@
     <Keep>留着两个</Keep>
     <Replace>替换</Replace>
     <Canceled>已取消</Canceled>
-      <UploadNewVersion>Upload new version</UploadNewVersion>
+      <UploadNewVersion>上传新的版本</UploadNewVersion>
     <Cancel>#{word.cancel}</Cancel>
     <AbortAllConfirmation>你想要中止进展中的所有文件吗？</AbortAllConfirmation>
   </label>
@@ -3201,17 +3201,17 @@
     </msg>
   </UIPropertyForm>
   <UIDocumentAutoVersionForm>
-    <msg>A document {0} already exists. What do you want to do?</msg>
+    <msg>文档{ 0 }已存在。你想做什么？</msg>
     <UIChkRememberNonVersioned>
-      <label>Remember my choice for all others non-versioned documents</label>
+      <label>记得我的所有非版本控制的文件选择</label>
     </UIChkRememberNonVersioned>
     <UIChkRememberVersioned>
-      <label>Remember my choice for all other versioned documents</label>
+      <label>记得我的所有其他版本的文件选择</label>
     </UIChkRememberVersioned>
   </UIDocumentAutoVersionForm>
   <DocumentAuto>
-    <message>A new version of the document {0} has been created successfully.</message>
-    <messageMultiFile>A new version of the document has been created.</messageMultiFile>
+    <message>已成功创建了文档{ 0 }的新版本。</message>
+    <messageMultiFile>创建了一个新版本的文档。</messageMultiFile>
   </DocumentAuto>
   <!--
   ###################################################################################
