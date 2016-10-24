@@ -259,7 +259,7 @@
   </UIMetadataList>
   <MetadataPopupAddNew>
     <title>
-      <UIMetadataForm>Add New Metadata's Template</UIMetadataForm>
+      <UIMetadataForm>添加新的元数据的模板</UIMetadataForm>
     </title>
   </MetadataPopupAddNew>
   <MetadataPopupEdit>
@@ -294,7 +294,7 @@
       <viewTemplate>视图模板：</viewTemplate>
       <metadataName>元数据名称：</metadataName>
       <viewPermission>权限</viewPermission>
-      <permission>UIMetadataForm</permission>
+      <permission>UI元数据表</permission>
       <metadataLabel>标签：</metadataLabel>
     </label>
     <tab>
@@ -454,8 +454,8 @@
   -->
   <UINodeTypeList>
     <label>
-      <true>true</true>
-      <false>false</false>
+      <true>真</true>
+      <false>假</false>
     </label>
     <header>
       <icon>图标</icon>
@@ -706,13 +706,13 @@
   -->
   <DriveInputSet>
     <label>
-      <both>Both</both>
-      <folderOnly>Folder</folderOnly>
-      <unstructuredFolder>Unstructured Folder</unstructuredFolder>
+      <both>二者都</both>
+      <folderOnly>文件夹</folderOnly>
+      <unstructuredFolder>非结构化的文件夹</unstructuredFolder>
     </label>
     <title>
       <AddPermission>添加权限</AddPermission>
-      <RemovePermission>Remove Permission</RemovePermission>
+      <RemovePermission>删除权限</RemovePermission>
       <AddIcon>添加图标</AddIcon>
       <AddPath>添加路径</AddPath>
     </title>
@@ -755,7 +755,7 @@
     <label>
       <actionType>扩展操作类型：</actionType>
       <name>名称：</name>
-      <isMove>is Action Move:</isMove>
+      <isMove>是活动:</isMove>
       <variables>变量</variables>
       <exo_businessProcessAction>业务流程：</exo_businessProcessAction>
       <exo_scriptAction>Groovy 脚本：</exo_scriptAction>
@@ -988,12 +988,12 @@
       <publicationPublish>发布</publicationPublish>
 <contentNavigation>内容导航</contentNavigation>
 <addSymLink>添加符号链接</addSymLink>
-      <checkIn>Check In</checkIn>
-      <checkOut>Check Out</checkOut>
+      <checkIn>导入</checkIn>
+      <checkOut>导出</checkOut>
       <shareDocuments>分享</shareDocuments>
-      <openDocument>Remote Edit</openDocument>
-      <editProperty>Edit Document Properties</editProperty>
-      <uploadNewVersion>Upload a new version</uploadNewVersion>
+      <openDocument>远程编辑</openDocument>
+      <editProperty>编辑文档属性</editProperty>
+      <uploadNewVersion>上传一个新版本</uploadNewVersion>
     </label>
     <action>
       <Save>#{word.save}</Save>      
@@ -1002,7 +1002,7 @@
   </UITabForm>
   <UIPermissionForm>
     <label>
-      <permission>UIPermissionForm</permission>
+      <permission>UI权限表</permission>
     </label>
   </UIPermissionForm>
   <UIViewFormTabPane>
@@ -1185,7 +1185,7 @@
   -->
   <uiECMScriptsPopup>
     <title>
-      <ecmScriptForm>ECM Script</ecmScriptForm>
+      <ecmScriptForm>ECM脚本</ecmScriptForm>
     </title>
   </uiECMScriptsPopup>
 
@@ -1376,14 +1376,14 @@
   <UIPermissionTreeForm>
     <label>
       <UIPopupWindow>选择</UIPopupWindow>
-      <permission>UIPermissionTreeForm</permission>
+      <permission>UI权限树形式</permission>
       <userOrGroup>用户或组</userOrGroup>
       <read>阅读权</read>
       <add_node>添加节点的权利</add_node>
       <set_property>设置属性权限</set_property>
       <remove>删除权利</remove>
     </label>
-    <title>Add a permission to this node</title>
+    <title>向此节点添加权限</title>
     <action>
       <Close>#{word.close}</Close>
       <Save>保存</Save>
@@ -1752,7 +1752,7 @@
   </TemplateContainerPopup>
   <ViewForm>
     <label>
-      <UITemplateContent>ViewForm</UITemplateContent>
+      <UITemplateContent>视图形式</UITemplateContent>
       <UIPopupWindow>查看权限</UIPopupWindow>
       <selectVersion>版本</selectVersion>
       <content>内容：</content>
@@ -1765,7 +1765,7 @@
   </ViewForm>
   <DialogForm>
     <label>
-      <UITemplateContent>DialogForm</UITemplateContent>
+      <UITemplateContent>对话框形式</UITemplateContent>
       <UIPopupWindow>对话框的权限</UIPopupWindow>
       <selectVersion>版本</selectVersion>
       <content>内容：</content>
@@ -2032,7 +2032,7 @@
   -->
   <ECMPhoneFormatValidator>
     <msg>
-      <Invalid>The field '{0}' contains an invalid Phone number. Please enter another value.</Invalid>
+      <Invalid>字段“{ 0 }”包含一个无效的电话号码。请输入另一个值。</Invalid>
     </msg>
   </ECMPhoneFormatValidator>
   <!--
@@ -2069,7 +2069,7 @@
   <UIWorkspaceList>
     <label>
       <workspaceName>工作区</workspaceName>
-      <rootNodeInfo>UIWorkspaceList</rootNodeInfo>
+      <rootNodeInfo>UI工作空间列表</rootNodeInfo>
       <rootNodePath>根路径：</rootNodePath>
     </label>
   </UIWorkspaceList>
@@ -2299,7 +2299,7 @@
     <label>
       <name>路径节点</name>      
       <permissions>权限</permissions>
-      <PermissionButton>UI Unlock Form</PermissionButton>
+      <PermissionButton>UI解锁形式</PermissionButton>
     </label>
     <action>
       <Save>#{word.save}</Save>
@@ -2392,7 +2392,7 @@
   
   <SkinForm>
     <label>
-      <UITemplateContent>SkinForm</UITemplateContent>
+      <UITemplateContent>皮肤形式</UITemplateContent>
       <UIPopupWindow>皮肤的权限</UIPopupWindow>
       <selectVersion>版本</selectVersion>
       <content>内容：</content>
@@ -2424,7 +2424,7 @@
 <UITaxonomyTreeMainForm>
 <action>
 <NextViewPermission>下一个</NextViewPermission>
-<Reset>Reset</Reset>
+<Reset>复位</Reset>
 </action>
 </UITaxonomyTreeMainForm>
 
@@ -2499,7 +2499,7 @@
   
   <UIFolksonomyManager>
   <msg>
-      <confirm-delete>是否确实要删除此标记样式?</confirm-delete>
+      <confirm-delete>是否确定要删除此标记样式?</confirm-delete>
   </msg>
     <action>
       <title>
@@ -2532,7 +2532,7 @@
   </UIWorkspaceWizard>
   <UIRepositoryForm>
     <msg>
-      <not-complete-repository>The repository is being created. You need to wait a few minutes before creating another one.</not-complete-repository>
+      <not-complete-repository>正在创建存储库。你需要等几分钟，才可以再创建另一个。</not-complete-repository>
     </msg>
   </UIRepositoryForm>
   
@@ -2550,7 +2550,7 @@
 </UIDriveForm>
 <DriveInputSet>
 <title>
-<RemovePermission>Remove Permission</RemovePermission>
+<RemovePermission>删除权限</RemovePermission>
 <ChooseNodeType>选择节点类型</ChooseNodeType>
 <RemoveNodeType>删除</RemoveNodeType>
 </title>
