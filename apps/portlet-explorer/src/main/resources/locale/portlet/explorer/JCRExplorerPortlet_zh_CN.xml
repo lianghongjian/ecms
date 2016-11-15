@@ -282,8 +282,8 @@
   -->
   <UIActionBar>
     <tooltip>
-      <AddFolder>新文件夹</AddFolder>
-      <AddDocument>新内容</AddDocument>
+      <AddFolder>新建文件夹</AddFolder>
+      <AddDocument>新建内容</AddDocument>
       <EditDocument>编辑</EditDocument>
       <Upload>上传</Upload>
       <Paste>粘贴</Paste>
@@ -829,7 +829,7 @@
   <UINodeTypeInfo>
     <label>
       <node-type>节点类型</node-type>
-      <name>姓名</name>
+      <name>名称</name>
       <item>主要产品名称</item>
       <super-types>父类型</super-types>
       <mixin>混合节点类型</mixin>
@@ -1192,7 +1192,7 @@
   </UIJCRAdvancedSearch>
   <EditQueryForm>
     <label>
-      <name>姓名</name>
+      <name>名称</name>
       <selectBox>选择查询样式</selectBox>
       <query>查询</query>
     </label>
@@ -1247,7 +1247,7 @@
   </ExactlyFormPopup>
   <UIECMSearch>
     <header>
-      <name>姓名</name>
+      <name>名称</name>
       <language>语言</language>
       <query>查询</query>
       <action>操作</action>
@@ -1278,7 +1278,7 @@
   </UISaveQueryForm>
   <UISavedQuery>
     <header>
-      <name>姓名</name>
+      <name>名称</name>
       <type>类型</type>
       <statement>声明</statement>
       <permission>权限</permission>
@@ -1432,7 +1432,7 @@
   -->
   <UIActivePublication>
     <header>
-      <LifecycleName>姓名</LifecycleName>
+      <LifecycleName>名称</LifecycleName>
       <LifecycleDesc>说明</LifecycleDesc>
       <action>操作</action>
     </header>
@@ -2781,7 +2781,7 @@
 
   <UIEditingTagsForm>
     <header>
-      <name>姓名</name>
+      <name>名称</name>
       <relatedDocuments>相关的文件</relatedDocuments>
       <action>操作</action>
     </header>
@@ -3186,7 +3186,7 @@
   </UIDocumentNodeList>
   <FileView>
     <label>
-      <name>姓名</name>
+      <name>文件名</name>
       <date>日期</date>
       <size>大小</size>
       <sortBy>排序依据:</sortBy>

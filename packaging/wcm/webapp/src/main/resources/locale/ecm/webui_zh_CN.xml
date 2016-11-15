@@ -7,7 +7,7 @@
   -->
   <UITreeList>
     <header>
-      <name>姓名</name>
+      <name>名称</name>
       <action>新增</action>
     </header>
     <info>

@@ -343,7 +343,7 @@
   <UIDriveList>
     <header>
       <icon>图标</icon>
-      <name>姓名</name>
+      <name>名称</name>
       <workspace>工作区</workspace>
       <homePath>主路径</homePath>
       <permissions>权限</permissions>

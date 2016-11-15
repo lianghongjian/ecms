@@ -129,7 +129,7 @@
   <EnableVersioning>
     <view>
       <label>
-        <action-name>姓名</action-name>
+        <action-name>名称</action-name>
         <lifecycle>生命周期</lifecycle>
         <description>说明</description>
       </label>
