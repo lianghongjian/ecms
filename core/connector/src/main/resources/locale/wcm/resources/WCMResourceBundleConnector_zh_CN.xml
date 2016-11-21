@@ -16,16 +16,16 @@
   </RenameConnector>
   <OpenInOfficeConnector>
     <label>
-      <exo.remote-edit.word>Open in Word</exo.remote-edit.word>
-      <exo.remote-edit.excel>Open in Excel</exo.remote-edit.excel>
-      <exo.remote-edit.powerpoint>Open in Powerpoint</exo.remote-edit.powerpoint>
-      <exo.remote-edit.desktop>Open on Desktop</exo.remote-edit.desktop>
-      <exo.remote-edit.desktop-app>Open in {0}</exo.remote-edit.desktop-app>
+      <exo.remote-edit.word>在Word中打开</exo.remote-edit.word>
+      <exo.remote-edit.excel>在Excel中打开</exo.remote-edit.excel>
+      <exo.remote-edit.powerpoint>在Powerpoint中打开</exo.remote-edit.powerpoint>
+      <exo.remote-edit.desktop>打开桌面上的</exo.remote-edit.desktop>
+      <exo.remote-edit.desktop-app>在{0}中打开</exo.remote-edit.desktop-app>
     </label>
   </OpenInOfficeConnector>
   <DocumentAutoVersion>
     <msg>
-      <WrongMimeType>The mimetype of the file uploaded is unknown. No new version of {0} will be created.</WrongMimeType>
+      <WrongMimeType>上传文件的类型是未知的。 将创建新版本 {0} </WrongMimeType>
     </msg>
   </DocumentAutoVersion>
 </bundle>
