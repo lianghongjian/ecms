@@ -184,13 +184,13 @@
   -->
   <NameSpacePopup>
     <title>
-      <UINamespaceForm>Namespace 窗体</UINamespaceForm>
+      <UINamespaceForm>命名空间窗体</UINamespaceForm>
     </title>
   </NameSpacePopup>
   <UINamespaceForm>
-    <title>注册新 Namespace</title>
+    <title>注册新的命名空间</title>
     <label>
-      <namespace>Namespace 前缀</namespace>
+      <namespace>前缀</namespace>
       <uri>URI</uri>
     </label>
     <action>
@@ -200,7 +200,7 @@
     <msg>
       <register-unsuccessfull>Namespace 或 URI 已经存在。</register-unsuccessfull>
       <prefix-null>请指定的命名空间前缀。</prefix-null>
-      <uri-null>请指定的命名空间 URI。</uri-null>
+      <uri-null>请指定命名空间的 URI。</uri-null>
     </msg>
   </UINamespaceForm>
   <!--
@@ -211,7 +211,7 @@
   <UINamespaceList>
     <header>
       <prefix>前缀</prefix>
-      <uri>Namespace URI</uri>
+      <uri>命名空间URI</uri>
       <action>操作</action>
     </header>
     <action>
@@ -220,7 +220,7 @@
   </UINamespaceList>
   <NamespacePopup>
     <title>
-      <UINamespaceForm>注册新 Namespace</UINamespaceForm>
+      <UINamespaceForm>注册新的命名空间</UINamespaceForm>
     </title>
   </NamespacePopup>
   <!--
@@ -230,10 +230,10 @@
   -->
   <UIMetadataList>
     <label>
-      <false>false</false>
-      <true>true</true>
-      <True>true</True>
-      <False>false</False>
+      <false>否</false>
+      <true>是</true>
+      <True>是</True>
+      <False>否</False>
     </label>
     <title>
       <view>视图</view>
@@ -248,7 +248,7 @@
       <action>操作</action>
     </header>
     <msg>
-      <confirm-delete>是否确实要删除此元数据?</confirm-delete>
+      <confirm-delete>是否确定要删除此元数据?</confirm-delete>
       <delete-successful>已成功删除的模板的 '{0}'。</delete-successful>
       <path-not-found-exception>此元数据已被删除或更改。请单击刷新按钮。</path-not-found-exception>
     </msg>
@@ -1480,13 +1480,13 @@
   <UIPermissionForm>
     <label>
       <UIPopupWindow>选择</UIPopupWindow>
-      <permission>UIPermissionForm</permission>
+      <permission>UI允许形态</permission>
       <userOrGroup>用户或组</userOrGroup>
       <read>读取</read>
       <add_node>修改</add_node>
       <remove>删除</remove>
     </label>
-    <title>Add permission to this node</title>
+    <title>对此节点添加运行</title>
     <action>
       <Close>#{word.close}</Close>
       <Save>#{word.save}</Save>
@@ -1527,7 +1527,7 @@
       <AddNew>添加模板</AddNew>
     </action>
     <msg>
-      <confirm-delete>确实要删除吗？</confirm-delete>
+      <confirm-delete>确定要删除吗？</confirm-delete>
       <access-denied>访问被拒绝。您无权使用此功能。</access-denied>
       <editing-template>访问被拒绝。不能同时删除和编辑该模板。</editing-template>
       <template-not-exist>您正在努力删除的模板不存在。</template-not-exist>
@@ -1545,7 +1545,7 @@
       <AddNew>添加模板</AddNew>
     </action>
     <msg>
-      <confirm-delete>确实要删除吗？</confirm-delete>
+      <confirm-delete>确定要删除吗？</confirm-delete>
       <access-denied>访问被拒绝。您无权使用此功能。</access-denied>
       <editing-template>访问被拒绝。不能同时删除和编辑该模板。</editing-template>
       <template-not-exist>您正在努力删除的模板不存在。</template-not-exist>
@@ -1563,7 +1563,7 @@
       <AddNew>添加模板</AddNew>
     </action>
     <msg>
-      <confirm-delete>确实要删除吗？</confirm-delete>
+      <confirm-delete>确定要删除吗？</confirm-delete>
       <access-denied>访问被拒绝。您无权使用此功能。</access-denied>
       <editing-template>访问被拒绝。不能同时删除和编辑该模板。</editing-template>
       <template-not-exist>您正在努力删除的模板不存在。</template-not-exist>
@@ -1948,7 +1948,7 @@
       <statement>声明</statement>
       <cache>启用缓存结果</cache>
       <permissions>权限</permissions>
-      <PermissionButton>UIQueriesForm</PermissionButton>
+      <PermissionButton>UI查询形式</PermissionButton>
     </label>
     <action>
       <Save>#{word.save}</Save>

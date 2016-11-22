@@ -289,12 +289,12 @@
       <Paste>粘贴</Paste>
       <Search>搜索</Search>
       <WatchDocument>观看/未观看</WatchDocument>
-      <TaggingDocument>标记</TaggingDocument>
-      <Vote>投票</Vote>
+      <TaggingDocument>标签</TaggingDocument>
+      <Vote>评分</Vote>
       <Comment>评论</Comment>
       <ManageVersions>版本</ManageVersions>
       <ManageAuditing>审计</ManageAuditing>
-      <ManagePublications>出版物</ManagePublications>
+      <ManagePublications>发布</ManagePublications>
       <ManageCategories>类别</ManageCategories>
       <ManageRelations>关系</ManageRelations>
       <ManageActions>操作</ManageActions>
@@ -309,8 +309,8 @@
       <ViewMetadatas>元数据</ViewMetadatas>
       <ViewRelations>显示/隐藏关系</ViewRelations>
       <ShowJCRStructure>显示/隐藏内容结构</ShowJCRStructure>
-      <EditProperty>Edit Document Properties</EditProperty>
-      <UploadNewVersion>Upload a new version</UploadNewVersion>
+      <EditProperty>编辑文档属性</EditProperty>
+      <UploadNewVersion>上传新版本</UploadNewVersion>
     </tooltip>
     <msg>
       <cannot-action-in-rootnode>您不能在根节点中执行此操作。</cannot-action-in-rootnode>
@@ -345,8 +345,8 @@
       <empty-file-type>您不能将文档添加到此节点。</empty-file-type>
       <unsupported-watch>只有文档节点可以看。</unsupported-watch>
       <watch-checkedin>在看之前，您必须签出该节点。</watch-checkedin>
-      <unsupported-tagging>只能给文档节点加标记。</unsupported-tagging>
-      <tagnode-checkedin>在加标记前，您必须签出该节点。</tagnode-checkedin>
+      <unsupported-tagging>只能给文档节点加标签。</unsupported-tagging>
+      <tagnode-checkedin>在加标签前，您必须签出该节点。</tagnode-checkedin>
     </msg>
     <title>
       <select-tab>选择选项卡</select-tab>
@@ -404,7 +404,7 @@
       <constraintviolation-exception>找不到强制性项目 jcr:uuid。该节点可能已删除或更改。请单击刷新按钮。</constraintviolation-exception>
       <path-not-found-exception>此节点已被删除或更改。请单击刷新按钮。</path-not-found-exception>
       <not-exist-categories>该类别不存在。</not-exist-categories>
-      <lock-node-read-only>This file is locked by user {0}. Open read-only ?</lock-node-read-only>
+      <lock-node-read-only>此文件被用户{ 0 }锁定。确定以只读方式打开？</lock-node-read-only>
     </msg>
   </UIPopupMenu>
   <!--
@@ -596,7 +596,7 @@
       <MoveToTrash>移到垃圾桶</MoveToTrash>
       <RestoreFromTrash>从垃圾桶中还原</RestoreFromTrash>
       <EmptyTrash>倾倒垃圾桶</EmptyTrash>
-      <WebDavView>Open in MS Office</WebDavView>
+      <WebDavView>用微软办公软件打开</WebDavView>
       <Download>下载</Download>
       <OpenDocument>远程编辑</OpenDocument>
       <EditProperty>编辑文档属性</EditProperty>
@@ -1895,13 +1895,13 @@
       <Cancel>#{word.close}</Cancel>
     </action>
     <msg>
-      <name-exist>'{0}' 的标记名称已经存在。</name-exist>
-      <tagName-invalid>标记名称中包含一些无效的字符。</tagName-invalid>
-      <tagName-empty-or-invalid>标记名为空或包含一些无效字符。</tagName-empty-or-invalid>
+      <name-exist>'{0}' 的标签名称已经存在。</name-exist>
+      <tagName-invalid>标签名称中包含一些无效的字符。</tagName-invalid>
+      <tagName-empty-or-invalid>标签名为空或包含一些无效字符。</tagName-empty-or-invalid>
       <tag-name-empty>您的标签名称为空</tag-name-empty>
-      <tag-name-duplicate>输入的标记名称是重复的。</tag-name-duplicate>
-      <tagName-too-long>输入的标记之一太长。标记名称必须少于 30 个字符。</tagName-too-long>
-      <path-not-found>此标记已被删除或更改。请单击刷新按钮。</path-not-found>
+      <tag-name-duplicate>输入的标签名称是重复的。</tag-name-duplicate>
+      <tagName-too-long>输入的标签之一太长。标记名称必须少于 30 个字符。</tagName-too-long>
+      <path-not-found>此标签已被删除或更改。请单击刷新按钮。</path-not-found>
     </msg>
     <introduction>
       <tagName>用逗号"、"分隔多个标签</tagName>
@@ -2817,7 +2817,7 @@
 
   <TagPopup>
     <title>
-      <UITagForm>标记</UITagForm>
+      <UITagForm>标签</UITagForm>
     </title>
   </TagPopup>
 
@@ -2828,7 +2828,7 @@
   </UIPopupMenu>
   <UITagStyleForm>
     <msg>
-      <error-update>更新标记样式时出错。</error-update>
+      <error-update>更新标签样式时出错。</error-update>
     </msg>
   </UITagStyleForm>
 
@@ -3044,7 +3044,7 @@
   </WCMContentView>
   <UITagForm>
     <msg>
-      <NameAlreadyExist>标记名称已经存在。</NameAlreadyExist>
+      <NameAlreadyExist>标签名称已经存在。</NameAlreadyExist>
     </msg>
   </UITagForm>
 
