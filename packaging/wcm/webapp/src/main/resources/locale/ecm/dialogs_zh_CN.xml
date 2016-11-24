@@ -28,7 +28,7 @@
       <contentHtml>#{word.content}</contentHtml>
       <content>#{word.content}</content>
       <contentPlain>#{word.content}</contentPlain>
-      <name>姓名</name>
+      <name>名称</name>
     <categories>类别</categories>
     </label>
   </UIDocumentForm>
@@ -39,7 +39,7 @@
   <HtmlFile>
     <dialog>
       <label>
-        <name>姓名</name>
+        <name>名称</name>
         <content>内容</content>
       </label>
     </dialog>
@@ -254,7 +254,7 @@
   <ResouceContainer>
     <dialog>
       <label>
-        <name>姓名</name>
+        <name>名称</name>
         <autoload>自动加载</autoload>
         <minetype>Mime 类型</minetype>
         <content>内容</content>
@@ -288,7 +288,7 @@
     <dialog>
       <label>
         <id>Id</id>
-        <name>姓名</name>
+        <name>名称</name>
         <lifecycle>生命周期</lifecycle>
         <homePath>生命周期</homePath>
         <targetWorkspace>目标工作区</targetWorkspace>

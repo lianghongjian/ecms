@@ -87,7 +87,7 @@
   <ListView>
     <view>
       <label>
-        <name>姓名</name>
+        <name>名称</name>
         <versionable>可版本化</versionable>
         <exo_owner>所有者</exo_owner>
         <exo_dateCreated>创建日期</exo_dateCreated>

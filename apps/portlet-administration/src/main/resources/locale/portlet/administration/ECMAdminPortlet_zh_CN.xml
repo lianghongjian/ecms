@@ -475,7 +475,7 @@
       <Delete>删除</Delete>
     </tooltip>
     <msg>
-      <confirm-delete>确实要删除此节点类型吗?</confirm-delete>
+      <confirm-delete>确定要删除此节点类型吗?</confirm-delete>
     </msg>
   </UINodeTypeList>
   <!--
@@ -568,8 +568,8 @@
       <node-type-exists>'{0}' 节点类型已经存在。</node-type-exists>
       <node-type-name>节点类型名称是无效的。</node-type-name>
       <values-error>请选择默认主类型只有一个节点类型。</values-error>
-      <confirm-delete-child>是否确实要删除此子节点?</confirm-delete-child>
-      <confirm-delete-property>确实要删除此属性吗?</confirm-delete-property>
+      <confirm-delete-child>是否确定要删除此子节点?</confirm-delete-child>
+      <confirm-delete-property>确定要删除此属性吗?</confirm-delete-property>
     </msg>
   </UINodeTypeForm>
   <UIPropertyDefinitionForm>
@@ -725,7 +725,7 @@
   <UIActionTypeList>
     <header>
       <name>字体：</name>
-      <label>姓名</label>
+      <label>名称</label>
       <action>操作</action>
     </header>
     <title>
@@ -736,8 +736,8 @@
       <AddAction>添加操作类型</AddAction>
     </action>
 <msg>
- <confirm-delete>确实要删除此行动类型吗?</confirm-delete>
-<cannot-delete>您无法删除此行动类型，因为该系统仍在使用它。</cannot-delete>
+ <confirm-delete>确定要删除此操作类型吗?</confirm-delete>
+<cannot-delete>您无法删除此操作类型，因为该系统仍在使用它。</cannot-delete>
 </msg>
   </UIActionTypeList>
   <!--
@@ -816,7 +816,7 @@
      <Delete>删除</Delete>
    </title>
     <header>
-      <name>姓名</name>
+      <name>名称</name>
       <permissions>权限</permissions>
       <tabList>操作选项卡</tabList>
       <baseVersion>基本版本</baseVersion>
@@ -933,9 +933,9 @@
       <view-exist>视图名称已存在。</view-exist>
     </msg>
     <label>
-      <viewName>姓名</viewName>
+      <viewName>名称</viewName>
       <template>模板</template>
-<version>还原的版本</version>
+<version>还原版本</version>
       <enableVersion>启用版本</enableVersion>
       <hideExplorerPanel>隐藏侧栏中的资源管理器面板</hideExplorerPanel>
     </label>
@@ -947,8 +947,8 @@
       <fileName-invalid>选项卡名称中包含一些无效的字符。</fileName-invalid>
     </msg>
     <label>
-      <version>还原的版本</version>
-      <viewName>姓名</viewName>
+      <version>还原版本</version>
+      <viewName>名称</viewName>
       <tabName>选项卡名称</tabName>
       <permission>权限</permission>
       <tabs>选项卡</tabs>
@@ -1052,7 +1052,7 @@
       <Delete>删除</Delete>
     </title>
     <header>
-      <name>姓名</name>
+      <name>名称</name>
       <path>值</path>
       <baseVersion>基本版本</baseVersion>
       <action>操作</action>
@@ -1165,10 +1165,10 @@
       <AddNew>添加脚本</AddNew>
     </action>
     <msg>
-      <confirm-delete>是否确实要删除此脚本?</confirm-delete>
+      <confirm-delete>是否确定要删除此脚本?</confirm-delete>
     </msg>
     <header>
-      <scriptName>姓名</scriptName>
+      <scriptName>名称</scriptName>
       <path>字体：</path>
       <baseVersion>基本版本</baseVersion>
       <action>操作</action>
@@ -1218,7 +1218,7 @@
     <label>
       <selectVersion>版本</selectVersion>
       <scriptContent>内容</scriptContent>
-      <scriptLabel>姓名</scriptLabel>
+      <scriptLabel>名称</scriptLabel>
       <scriptName>字体：</scriptName>
       <enableVersion>启用版本控制</enableVersion>
     </label>
@@ -1233,7 +1233,7 @@
     <label>
       <selectVersion>版本</selectVersion>
       <scriptContent>内容</scriptContent>
-      <scriptLabel>姓名</scriptLabel>
+      <scriptLabel>名称</scriptLabel>
       <scriptName>字体：</scriptName>
       <enableVersion>启用版本控制</enableVersion>
     </label>
@@ -1363,7 +1363,7 @@
   -->
   <UITaxonomyTreeForm>
     <label>
-      <name>姓名</name>
+      <name>名称</name>
       <workspace>工作区</workspace>
       <homePath>路径</homePath>
       <permissions>权限</permissions>
@@ -1443,7 +1443,7 @@
       <action>操作</action>
     </header>
     <msg>
-      <confirm-delete-permission>确实要删除此权限吗?</confirm-delete-permission>
+      <confirm-delete-permission>确定要删除此权限吗?</confirm-delete-permission>
       <no-permission-tochange>您没有删除此权限的权利。</no-permission-tochange>
       <no-permission-remove>您不能删除所有者或系统用户。</no-permission-remove>
       <access-denied>访问被拒绝。您不能删除此权限。</access-denied>
@@ -1590,7 +1590,7 @@
       <Delete>删除</Delete>
     </title>
     <header>
-      <title>姓名</title>
+      <title>名称</title>
       <action>操作</action>
       <template>模板</template>
     </header>
@@ -1609,7 +1609,7 @@
 
 <CateTemplateList>
     <header>
-      <title>姓名</title>
+      <title>名称</title>
       <action>操作</action>
       <template>模板</template>
     </header>
@@ -1626,7 +1626,7 @@
 
 <PageTemplateList>
     <header>
-      <title>姓名</title>
+      <title>名称</title>
       <action>操作</action>
       <template>模板</template>
     </header>
@@ -1680,7 +1680,7 @@
 <Cancel>#{word.cancel}</Cancel>
  </action>
 <label>
- <title>姓名</title>
+ <title>名称</title>
 <template>模板名称</template>
 <content>内容</content>
 <type>模板类型</type>
@@ -1694,7 +1694,7 @@
 <Cancel>#{word.cancel}</Cancel>
  </action>
 <label>
- <title>姓名</title>
+ <title>名称</title>
 <template>模板名称</template>
 <content>内容</content>
 <type>模板类型</type>
@@ -1828,14 +1828,14 @@
   -->
   <UIDialogTab>
     <header>
-      <name>姓名</name>
+      <name>名称</name>
       <roles>角色</roles>
       <baseVersion>版本</baseVersion>
       <action>操作</action>
     </header>
     <msg>
       <undeletable>您不能删除 '{0}' 因为它是默认的。</undeletable>
-      <confirm-delete>是否确实要删除此对话框?</confirm-delete>
+      <confirm-delete>是否确定要删除此对话框?</confirm-delete>
     </msg>
     <action>
       <title>
@@ -1851,14 +1851,14 @@
   -->
   <UIViewTab>
     <header>
-      <name>姓名</name>
+      <name>名称</name>
       <roles>角色</roles>
       <baseVersion>版本</baseVersion>
       <action>操作</action>
     </header>
     <msg>
       <undeletable>不能删除 '{0}'，它是默认的。</undeletable>
-      <confirm-delete>确实要删除吗？</confirm-delete>
+      <confirm-delete>确定要删除吗？</confirm-delete>
     </msg>
     <action>
       <title>
@@ -1922,7 +1922,7 @@
   -->
   <UIQueriesList>
     <header>
-      <name>姓名</name>
+      <name>名称</name>
       <type>类型</type>
       <statement>声明</statement>
       <permission>权限</permission>
@@ -1936,7 +1936,7 @@
       <Delete>删除此查询</Delete>
     </tooltip>
     <msg>
-      <confirm-delete>确实要删除此查询吗?</confirm-delete>
+      <confirm-delete>确定要删除此查询吗?</confirm-delete>
       <query-not-existed>查询不再存在。</query-not-existed>
       <can-not-remove>删除查询时出现错误。对于信息，请联系管理员。</can-not-remove>
     </msg>
@@ -2080,7 +2080,7 @@
   -->
   <UIFormInputSetWithAction>
     <msg>
-      <confirm-delete>确实要删除吗?</confirm-delete>
+      <confirm-delete>确定要删除吗?</confirm-delete>
     </msg>
   </UIFormInputSetWithAction>
   <template>
@@ -2373,14 +2373,14 @@
   
   <UISkinTab>
     <header>
-      <name>姓名</name>
+      <name>名称</name>
       <roles>角色</roles>
       <baseVersion>版本：</baseVersion>
       <action>操作</action>
     </header>
     <msg>
       <undeletable>您不能删除 '{0}' 因为它是默认的。</undeletable>
-      <confirm-delete>确实要删除此皮肤吗?</confirm-delete>
+      <confirm-delete>确定要删除此皮肤吗?</confirm-delete>
     </msg>
     <action>
       <title>
@@ -2412,7 +2412,7 @@
      </title>
    </action>
    <msg>
-     <confirm-delete>是否确实要删除此标记样式?</confirm-delete>
+     <confirm-delete>是否确定要删除此标记样式?</confirm-delete>
    </msg>
  </UITagManager>
 

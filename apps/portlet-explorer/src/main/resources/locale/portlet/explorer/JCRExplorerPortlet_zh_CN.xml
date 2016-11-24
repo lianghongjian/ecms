@@ -1890,7 +1890,7 @@
     <label>
       <names>标签名称：</names>
       <linked>链接的标签：</linked>
-      <tagSet>UITaggingForm</tagSet>
+      <tagSet>UI标记形式</tagSet>
     </label>
     <action>
       <AddTag>新增</AddTag>
