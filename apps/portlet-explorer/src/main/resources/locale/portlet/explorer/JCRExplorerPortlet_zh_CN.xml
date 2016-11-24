@@ -1605,7 +1605,7 @@
   </UICategoriesAddedList>
   <UITreeList>
     <header>
-      <name>姓名</name>
+      <name>名称</name>
       <action>操作</action>
     </header>
     <info>
