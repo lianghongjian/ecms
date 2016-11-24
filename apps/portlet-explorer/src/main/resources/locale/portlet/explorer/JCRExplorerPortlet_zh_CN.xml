@@ -583,8 +583,8 @@
       <WebDAV>视图 WebDAV</WebDAV>
       <autoversion>自动版本控制</autoversion>
       <Custom>定制：</Custom>
-      <AddFolder>新的文件夹</AddFolder>
-      <AddDocument>新内容</AddDocument>
+      <AddFolder>新建文件夹</AddFolder>
+      <AddDocument>新建</AddDocument>
       <Upload>上传文件</Upload>
       <MoveNode>移动</MoveNode>
       <UnLock>解锁​​​​</UnLock>
@@ -3203,7 +3203,7 @@
     </msg>
   </UIPropertyForm>
   <UIDocumentAutoVersionForm>
-    <msg>文档{ 0 }已存在。你想做什么？</msg>
+    <msg>文档 {0} 已存在。你想做什么？</msg>
     <UIChkRememberNonVersioned>
       <label>记得我的所有非版本控制的文件选择</label>
     </UIChkRememberNonVersioned>
@@ -3212,7 +3212,7 @@
     </UIChkRememberVersioned>
   </UIDocumentAutoVersionForm>
   <DocumentAuto>
-    <message>已成功创建了文档{ 0 }的新版本。</message>
+    <message>已成功创建了文档 {0} 的新版本。</message>
     <messageMultiFile>创建了一个新版本的文档。</messageMultiFile>
   </DocumentAuto>
   <!--
