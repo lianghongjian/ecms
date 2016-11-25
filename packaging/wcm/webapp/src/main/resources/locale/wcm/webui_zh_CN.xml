@@ -28,7 +28,7 @@
 
   <UIFormInputSetWithAction>
     <msg>
-      <confirm-delete>确实要删除此项目吗?</confirm-delete>
+      <confirm-delete>确定要删除此项目吗?</confirm-delete>
     </msg>
   </UIFormInputSetWithAction>
 

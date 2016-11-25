@@ -65,7 +65,7 @@
       <PrintSettingBlock>打印设置</PrintSettingBlock>
       <UISCVPrintPageParameter>与</UISCVPrintPageParameter>
       <UISCVConfigPrintPageFormInputSet>在页中显示</UISCVConfigPrintPageFormInputSet>
-      <LockStatus>锁</LockStatus>
+      <LockStatus>锁定</LockStatus>
       <CacheManagement>内容可见性</CacheManagement>
       <UISCVCacheRadioBox>共享内容</UISCVCacheRadioBox>
     </label>
@@ -118,7 +118,7 @@
   <UISCVCacheRadioBox>
     <label>
       <Enable>通过身份验证的限制</Enable>
-      <Disable>被限制由用户角色</Disable>
+      <Disable>受用户角色的限制</Disable>
     </label>
   </UISCVCacheRadioBox>
 </bundle>

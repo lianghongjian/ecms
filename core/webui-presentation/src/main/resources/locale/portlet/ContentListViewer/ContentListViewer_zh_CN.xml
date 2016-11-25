@@ -63,16 +63,16 @@
       <Up>向上</Up>
       <Down>向下</Down>
       <UICLVConfigCacheManagementLabel>内容可见性</UICLVConfigCacheManagementLabel>
-      <UICLVContentByQueryLabel>Content by Query</UICLVContentByQueryLabel>
+      <UICLVContentByQueryLabel>内容查询</UICLVContentByQueryLabel>
       <UICLVConfigWorkspaceFormSelectBox>工作区</UICLVConfigWorkspaceFormSelectBox>
-      <UICLVConfigContentByQueryTextArea>by query</UICLVConfigContentByQueryTextArea>
-      <UICLVConfigCacheEnableRadioBoxInput>Share content between users</UICLVConfigCacheEnableRadioBoxInput>
+      <UICLVConfigContentByQueryTextArea>通过查询</UICLVConfigContentByQueryTextArea>
+      <UICLVConfigCacheEnableRadioBoxInput>用户之间的共享内容</UICLVConfigCacheEnableRadioBoxInput>
     </label>
     <help>
       <ModeSelectionHelp>两种模式可显示内容。"按文件夹"将您所选的文件夹类别中可用的所有内容。"的内容"允许您手动选择你想要显示的内容。</ModeSelectionHelp>
       <FolderPathHelp>请选择您想要显示的内容。如果您激活动态导航选项，将动态替换此默认内容 （请参阅下面的高级的模式）。</FolderPathHelp>
       <HeaderOptionHelp>显示在内容列表上的标头。如果您激活自动检测选项，它将尝试查找基于当前选定内容的标题。</HeaderOptionHelp>
-      <GeneralOptionHelp>Select the graphical elements you want to show in your list. Note that, depending on your selected template, some elements may not be available.</GeneralOptionHelp>
+      <GeneralOptionHelp>选择要在列表中显示的图形元素。请注意，根据您的选择的模板，一些元素可能不可用。</GeneralOptionHelp>
       <ContextualHelp>激活动态导航选项。其他人可以更改基于 URL 参数来动态的内容。</ContextualHelp>
       <ParameterHelp>此参数将用于访问的内容，如果动态导航处于激活状态。</ParameterHelp>
       <ShowDetailInPageHelp>点击内容可将用户重定向到详细页。与动态导航启用在目标页上要显示的内容，您必须具有"内容的 URL"portlet。</ShowDetailInPageHelp>
@@ -86,8 +86,8 @@
       <delete>删除</delete>
     </action>
     <msg>
-      <not-valid-path>The Folder Path is invalid.</not-valid-path>
-      <saving-success>The portlet's preferences are saved.</saving-success>
+      <not-valid-path>文件夹路径无效。</not-valid-path>
+      <saving-success>门户组件的喜好保存.</saving-success>
     </msg>
     <tab>
       <label>
@@ -99,8 +99,8 @@
   </UICLVConfig>
   <UICLVConfigDisplayModeFormRadioBoxInput>
     <label>
-      <AutoViewerMode>By Folder</AutoViewerMode>
-      <ManualViewerMode>By Content</ManualViewerMode>
+      <AutoViewerMode>通过文件夹</AutoViewerMode>
+      <ManualViewerMode>通过内容</ManualViewerMode>
     </label>
   </UICLVConfigDisplayModeFormRadioBoxInput>
   <UICLVConfigItemPathFormInputSet>
@@ -139,8 +139,8 @@
       <delete-content-successfully>已成功删除内容。</delete-content-successfully>
     </msg>
     <label>
-      <readmore>Read more</readmore>
-      <rssFeed>RSS Feed</rssFeed>
+      <readmore>阅读更多</readmore>
+      <rssFeed>RSS</rssFeed>
     </label>
     <action>
       <refresh>刷新</refresh>
@@ -154,12 +154,12 @@
   </UICLVPresentation>
   <CorrectContentSelectorPopupWindow>
     <title>
-      <UIContentSelectorMulti>Multiple Content Selector Panel</UIContentSelectorMulti>
+      <UIContentSelectorMulti>多内容选择器面板</UIContentSelectorMulti>
     </title>
   </CorrectContentSelectorPopupWindow>
   <UIContentDialogFormPopupWindow>
     <title>
-      <UIContentDialogForm>Web Content Form</UIContentDialogForm>
+      <UIContentDialogForm>网站内容形式</UIContentDialogForm>
     </title>
   </UIContentDialogFormPopupWindow>
   <UICLVConfigContextualFolderRadioBoxInput>
@@ -183,7 +183,7 @@
   <UICLVConfigCacheEnableRadioBoxInput>
     <label>
       <ENABLE>通过身份验证的限制</ENABLE>
-      <DISABLE>Restricted by User Roles</DISABLE>
+      <DISABLE>受用户角色的限制</DISABLE>
     </label>
   </UICLVConfigCacheEnableRadioBoxInput>
 </bundle>
