@@ -70,8 +70,8 @@
       <empty>没有操作</empty>
       <remove-popup-first>您必须在删除此节点之前关闭编辑弹出窗口。</remove-popup-first>
       <confirm-delete-action>是否确实要删除此操作?</confirm-delete-action>
-      <template-empty>此模板的 '{0}' 是 null 或为空。</template-empty>
-      <template-null>该模板是 null 或为空，或您没有权限访问此模板。</template-null>
+      <template-empty>此模板的 '{0}' 无效或为空。</template-empty>
+      <template-null>该模板无效或为空，或您没有权限访问此模板。</template-null>
       <access-denied>访问被拒绝。您没有权限来执行此操作。</access-denied>
     </msg>
   </UIFCCActionList>
@@ -167,7 +167,7 @@
 
   <PopupComponent>
     <title>
-      <UICategoriesSelector>Add Categories</UICategoriesSelector>
+      <UICategoriesSelector>添加类别</UICategoriesSelector>
     </title>
   </PopupComponent>
 
