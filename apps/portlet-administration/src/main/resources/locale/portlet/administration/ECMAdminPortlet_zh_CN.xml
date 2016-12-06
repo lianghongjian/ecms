@@ -2247,15 +2247,15 @@
     <label>
       <option>
         <userName>#{word.userName}</userName>
-        <lastName>#{word.lastName}</lastName>
-        <firstName>#{word.firstName}</firstName>
+        <lastName>#{word.firstName}</lastName>
+        <firstName>#{word.lastName}</firstName>
         <email>#{word.email}</email>
       </option>
       <group>组</group>
       <searchUser>用户</searchUser>
       <userName>#{word.userName}</userName>
-      <lastName>#{word.lastName}</lastName>
-      <firstName>#{word.firstName}</firstName>
+      <lastName>#{word.firstName}</lastName>
+      <firstName>#{word.lastName}</firstName>
     <email>#{word.email}</email>
       <action>#{word.action}</action>
       <Add>#{word.Add}</Add>
