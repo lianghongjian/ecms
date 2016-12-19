@@ -803,7 +803,7 @@
       <UIPopupWindow>请选择</UIPopupWindow>
       <permission>UI权限表</permission>
       <userOrGroup>用户或组</userOrGroup>
-      <read>阅读权限</read>
+      <read>只读权限</read>
       <add_node>修改权限</add_node>
       <remove>删除权限</remove>
     </label>
