@@ -529,7 +529,7 @@
       <parentversion>在母版上</parentversion>
       <protected>是受保护</protected>
       <constraints>值</constraints>
-      <UIFormTableInputSet>UIFormTableInputSet</UIFormTableInputSet>
+      <UIFormTableInputSet>UI表输入设置</UIFormTableInputSet>
       <sameNameSiblings>是同一名称同级</sameNameSiblings>
       <childNamespace>名称空间</childNamespace>
       <childMandatory>是强制性的</childMandatory>
