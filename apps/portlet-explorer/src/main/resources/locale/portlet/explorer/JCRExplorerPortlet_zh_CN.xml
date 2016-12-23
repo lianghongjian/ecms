@@ -501,7 +501,7 @@
       <feedback-restore-multi>{0} 项目成功恢复。</feedback-restore-multi>
       
       <confirm-restore>节点"{0}"的旧位置已存在具有相同名称的节点。是否确实要恢复此节点?</confirm-restore>
-      <confirm-move>确实要移动吗?</confirm-move>
+      <confirm-move>确定要移动吗?</confirm-move>
       <node-cut>节点"{0}"已被削减。</node-cut>
       <execute-successfully>已执行自定义操作 '{0}'。</execute-successfully>
       <save-node-success>节点"{0}"已被保存。</save-node-success>
@@ -529,7 +529,7 @@
       <RemoveNode>删除</RemoveNode>
       <Checkin>签入</Checkin>
       <Checkout>签出</Checkout>
-      <Lock>锁</Lock>
+      <Lock>锁定</Lock>
       <Unlock>解锁​​​​</Unlock>
       <EditDocument>编辑</EditDocument>
       <Paste>粘贴</Paste>
