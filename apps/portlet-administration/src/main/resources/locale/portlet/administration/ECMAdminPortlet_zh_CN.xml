@@ -1708,7 +1708,7 @@
 <Cancel>#{word.cancel}</Cancel>
  </action>
 <label>
- <title>姓名</title>
+ <title>名称</title>
 <template>模板名称</template>
 <content>内容</content>
 <type>模板类型</type>
