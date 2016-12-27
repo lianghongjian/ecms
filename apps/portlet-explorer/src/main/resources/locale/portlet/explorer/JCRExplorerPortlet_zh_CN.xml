@@ -1906,7 +1906,7 @@
       <path-not-found>此标签已被删除或更改。请单击刷新按钮。</path-not-found>
     </msg>
     <introduction>
-      <tagName>用逗号"、"分隔多个标签</tagName>
+      <tagName>用逗号"，"分隔多个标签</tagName>
     </introduction>
   </UITaggingForm>
 
