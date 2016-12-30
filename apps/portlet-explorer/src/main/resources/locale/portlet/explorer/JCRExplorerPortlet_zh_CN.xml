@@ -71,7 +71,7 @@
   -->
   <UISideBar>
     <label>
-      <Relation>关系</Relation>
+      <Relation>关联</Relation>
       <Explorer>文件资源管理器</Explorer>
       <Close>关闭边栏</Close>
       <TagExplorer>标签云</TagExplorer>
@@ -143,7 +143,7 @@
   <UIViewRelationList>
     <label>
       <languages-list>翻译</languages-list>
-      <relation-list>关系</relation-list>
+      <relation-list>关联</relation-list>
       <references-list>引用</references-list>
       <no-related-document>没有相关文档</no-related-document>
       <related-document>相关的文件</related-document>
@@ -234,7 +234,7 @@
       <UIDocumentForm>编辑文档</UIDocumentForm>
       <UIDocumentFormController>添加新的文档</UIDocumentFormController>
       <EditFormController>编辑文档</EditFormController>
-      <UIRelationManager>添加关系</UIRelationManager>
+      <UIRelationManager>添加关联</UIRelationManager>
       <UICategoryManager>添加类别</UICategoryManager>
       <UIImportNode>导入</UIImportNode>
       <UIViewMetadataManager>查看元数据</UIViewMetadataManager>
@@ -296,7 +296,7 @@
       <ManageAuditing>审计</ManageAuditing>
       <ManagePublications>发布</ManagePublications>
       <ManageCategories>类别</ManageCategories>
-      <ManageRelations>关系</ManageRelations>
+      <ManageRelations>关联</ManageRelations>
       <ManageActions>操作</ManageActions>
       <ExportNode>导出</ExportNode>
       <ImportNode>导入</ImportNode>
@@ -307,7 +307,7 @@
       <ViewPermissions>权限</ViewPermissions>
       <ViewProperties>属性</ViewProperties>
       <ViewMetadatas>元数据</ViewMetadatas>
-      <ViewRelations>显示/隐藏关系</ViewRelations>
+      <ViewRelations>显示/隐藏关联</ViewRelations>
       <ShowJCRStructure>显示/隐藏内容结构</ShowJCRStructure>
       <EditProperty>编辑文档属性</EditProperty>
       <UploadNewVersion>上传新版本</UploadNewVersion>
@@ -1623,18 +1623,18 @@
     </action>
     <tab>
       <label>
-        <UIOneNodePathSelector>选择关系</UIOneNodePathSelector>
+        <UIOneNodePathSelector>选择关联</UIOneNodePathSelector>
       </label>
     </tab>
     <tab>
       <label>
-        <UIRelationsAddedList>关系列表</UIRelationsAddedList>
+        <UIRelationsAddedList>关联列表</UIRelationsAddedList>
       </label>
     </tab>
   </UIRelationManager>
   <UIRelationsAddedList>
     <header>
-      <path>关系</path>
+      <path>关联</path>
       <action>操作</action>
     </header>
     <action>
@@ -1643,8 +1643,8 @@
       </title>
     </action>
     <msg>
-      <confirm-delete>确定要删除此关系吗?</confirm-delete>
-      <can-not-add-itself>不能添加一个关系到其自身。</can-not-add-itself>
+      <confirm-delete>确定要删除此关联吗?</confirm-delete>
+      <can-not-add-itself>不能添加一个关联到其自身。</can-not-add-itself>
     </msg>
   </UIRelationsAddedList>
   <!--

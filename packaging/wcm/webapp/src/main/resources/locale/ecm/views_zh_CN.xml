@@ -153,7 +153,7 @@
         <publisher>发布者</publisher>
         <description>说明</description>
         <rights>权利</rights>
-        <relation>关系</relation>
+        <relation>关联</relation>
         <format>格式</format>
         <coverage>覆盖范围</coverage>
         <identifier>标识符</identifier>

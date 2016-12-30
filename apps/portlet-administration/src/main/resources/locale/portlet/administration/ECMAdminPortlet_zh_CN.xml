@@ -968,11 +968,11 @@
       <manageAuditing>管理审核</manageAuditing>
       <managePublications>管理出版物</managePublications>
       <manageCategories>管理类别</manageCategories>
-      <manageRelations>管理关系</manageRelations>
+      <manageRelations>管理关联</manageRelations>
       <manageActions>管理操作</manageActions>
       <exportNode>出口节点</exportNode>
       <importNode>导入节点</importNode>
-      <viewRelations>查看关系</viewRelations>
+      <viewRelations>查看关联</viewRelations>
       <showJCRStructure>显示 JCR 结构</showJCRStructure>
       <watchDocument>观看文档</watchDocument>
       <taggingDocument>标记文档</taggingDocument>
