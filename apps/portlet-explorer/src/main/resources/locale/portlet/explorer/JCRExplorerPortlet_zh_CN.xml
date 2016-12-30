@@ -891,10 +891,10 @@
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <label>
-      <moreConstraints>UI简单搜索</moreConstraints>
+      <moreConstraints>UI搜索</moreConstraints>
       <firstOperator>运算符:</firstOperator>
-      <input>内容中的一个词或短语:</input>
-      <constraints>更多的约束:</constraints>
+      <input>全文检索</input>
+      <constraints>约束条件:</constraints>
       <nodePath>当前位置:</nodePath>
     </label>
     <msg>
