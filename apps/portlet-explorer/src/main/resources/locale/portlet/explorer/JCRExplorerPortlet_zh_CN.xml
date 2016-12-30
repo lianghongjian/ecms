@@ -1116,9 +1116,9 @@
       <colon>:</colon>
       <operator>运算符</operator>
       <exactlyPro-properties>属性</exactlyPro-properties>
-      <exactlyPro-ContainExactly>确切地包含</exactlyPro-ContainExactly>
+      <exactlyPro-ContainExactly>精确搜索</exactlyPro-ContainExactly>
       <containPro-properties>属性</containPro-properties>
-      <containPro-Contain>包含</containPro-Contain>
+      <containPro-Contain>模糊搜索</containPro-Contain>
       <notContainPro-properties>属性</notContainPro-properties>
       <notContainPro-notContain>不包含</notContainPro-notContain>
       <ConstraintOption-From>从</ConstraintOption-From>
@@ -1906,7 +1906,7 @@
       <path-not-found>此标签已被删除或更改。请单击刷新按钮。</path-not-found>
     </msg>
     <introduction>
-      <tagName>用逗号"，"分隔多个标签</tagName>
+      <tagName>用逗号","分隔多个标签</tagName>
     </introduction>
   </UITaggingForm>
 
