@@ -2430,9 +2430,9 @@
 
 <UIPermissionTreeForm>
 <action>
-<Save>Save</Save>
+<Save>保存</Save>
 <Cancel>#{word.cancel}</Cancel>
-<Reset>Reset</Reset>
+<Reset>重置</Reset>
 <NextAddAction>下一个</NextAddAction>
 <Previous>上一个</Previous>
 </action>
