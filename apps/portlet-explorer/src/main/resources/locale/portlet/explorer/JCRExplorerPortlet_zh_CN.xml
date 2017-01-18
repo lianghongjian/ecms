@@ -216,7 +216,7 @@
     <title>
       <UIRenameForm>重命名</UIRenameForm>
       <UIActionContainer>编辑操作</UIActionContainer>
-      <UIFolderForm>新的文件夹</UIFolderForm>
+      <UIFolderForm>新建文件夹</UIFolderForm>
       <UIUploadManager>上传文件</UIUploadManager>
       <UIReferencesList>引用列表</UIReferencesList>
       <UIExportNode>导出</UIExportNode>
