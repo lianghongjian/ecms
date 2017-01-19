@@ -178,7 +178,7 @@
   <UIContentSearchForm>
     <title>
       <Location>站点名称</Location>
-      <SearchByName>按名字查询</SearchByName>
+      <SearchByName>名称搜索</SearchByName>
       <Fulltext>单词或短语在上下文中</Fulltext>
       <Property>属性</Property>
       <Contain>包含</Contain>

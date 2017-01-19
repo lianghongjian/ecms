@@ -648,7 +648,7 @@
       <UICategoryManagerSearch>将类别添加到搜索</UICategoryManagerSearch>
       <UIConstraintsForm>限制窗体</UIConstraintsForm>
       <UIViewSearchResult>查看内容</UIViewSearchResult>
-      <UIContentNameSearch>按名字查询</UIContentNameSearch>
+      <UIContentNameSearch>名称搜索</UIContentNameSearch>
       <UINodeInfo>版本信息</UINodeInfo>
       <UINodeProperty>节点属性</UINodeProperty>
       <UIActionListContainer>可用的操作</UIActionListContainer>
@@ -939,7 +939,7 @@
       <datecreatedDESC>按创建日期降序排序</datecreatedDESC>
     </title>
     <tooltip>
-      <View>查看此节点</View>
+      <View>查看文件</View>
       <OpenFolder>转到文件夹</OpenFolder>
     </tooltip>
   </UISearchResult>
@@ -970,7 +970,7 @@
       <datecreatedDESC>按创建日期的降序排序</datecreatedDESC>
     </title>
     <tooltip>
-      <View>查看此节点</View>
+      <View>查看文件</View>
       <OpenFolder>转到文件夹</OpenFolder>
     </tooltip>
   </UIShowAllOwnedByUserResult>
@@ -1001,7 +1001,7 @@
       <datecreatedDESC>按创建日期降序排序</datecreatedDESC>
     </title>
     <tooltip>
-      <View>查看此节点</View>
+      <View>查看文件</View>
       <OpenFolder>转到文件夹</OpenFolder>
     </tooltip>
   </UIShowAllFavouriteResult>
@@ -1033,7 +1033,7 @@
       <datecreatedDESC>按创建日期降序排序</datecreatedDESC>
     </title>
     <tooltip>
-      <View>查看此节点</View>
+      <View>查看文件</View>
       <OpenFolder>转到文件夹</OpenFolder>
       <RemoveHiddenAttribute>删除隐藏属性</RemoveHiddenAttribute>
     </tooltip>
@@ -1065,7 +1065,7 @@
       <datecreatedDESC>按创建日期的降序排序</datecreatedDESC>
     </title>
     <tooltip>
-      <View>查看此节点</View>
+      <View>查看文件</View>
       <OpenFolder>转到文件夹</OpenFolder>
       <DeletePermanently>Delete permanently</DeletePermanently>
       <RestoreFromTrash>从垃圾桶中还原</RestoreFromTrash>
@@ -1889,7 +1889,7 @@
   <UITaggingForm>
     <label>
       <names>标签名称：</names>
-      <linked>链接的标签：</linked>
+      <linked>标签链接：</linked>
       <tagSet>UI标记形式</tagSet>
     </label>
     <action>
