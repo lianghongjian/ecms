@@ -2678,7 +2678,7 @@
        <Video>视频</Video>
        <Music>音乐</Music>
        <Documents>文档</Documents>
-       <Content>内容</Content>
+       <Content>所有文件</Content>
     </label>
   </DocumentType>
 
@@ -2688,7 +2688,7 @@
       <Video>视频</Video>
       <Music>音乐</Music>
       <Documents>文档</Documents>
-      <Content>内容</Content>
+      <Content>所有文件</Content>
     </label>
     <title>将筛选器偏好设置</title>
     <action>
