@@ -308,7 +308,7 @@
       <ViewProperties>属性</ViewProperties>
       <ViewMetadatas>元数据</ViewMetadatas>
       <ViewRelations>显示/隐藏关联</ViewRelations>
-      <ShowJCRStructure>显示/隐藏内容结构</ShowJCRStructure>
+      <ShowJCRStructure>显示/隐藏文档结构</ShowJCRStructure>
       <EditProperty>编辑文档属性</EditProperty>
       <UploadNewVersion>上传新版本</UploadNewVersion>
     </tooltip>
