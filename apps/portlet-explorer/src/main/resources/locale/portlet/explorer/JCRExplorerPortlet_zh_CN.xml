@@ -288,7 +288,7 @@
       <Upload>上传</Upload>
       <Paste>粘贴</Paste>
       <Search>搜索</Search>
-      <WatchDocument>观看/未观看</WatchDocument>
+      <WatchDocument>观看/取消观看</WatchDocument>
       <TaggingDocument>标签</TaggingDocument>
       <Vote>评分</Vote>
       <Comment>评论</Comment>
@@ -1869,7 +1869,7 @@
       <Watch>观看</Watch>
       <Cancel>#{word.cancel}</Cancel>
       <Continue>继续</Continue>
-      <Unwatch>未观看</Unwatch>
+      <Unwatch>取消观看</Unwatch>
     </action>
     <label>
       <notificationType>通知类型：</notificationType>
