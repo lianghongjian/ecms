@@ -872,7 +872,7 @@
   </UICategoryManagerSearch>
   <UIContentNameSearch>
     <label>
-      <keyword>内容名称:</keyword>
+      <keyword>文件名称:</keyword>
       <location>在这个位置搜索:</location>
     </label>
     <action>
@@ -2053,7 +2053,7 @@
   </EmailAddressValidator>
   <UIFormInputSetWithAction>
     <msg>
-      <confirm-delete>确实要删除吗?</confirm-delete>
+      <confirm-delete>确定要删除吗?</confirm-delete>
     </msg>
   </UIFormInputSetWithAction>
   <RepeatCountValidator>
@@ -2633,7 +2633,7 @@
 
   <UIViewSearchResult>
     <tooltip>
-      <remove-attachment>确实要删除此附件文件吗?</remove-attachment>
+      <remove-attachment>确定要删除此附件文件吗?</remove-attachment>
     </tooltip>
   </UIViewSearchResult>
 
