@@ -2603,8 +2603,8 @@
 
   <Comments>
     <tooltip>
-      <remove-comment>删除此注释</remove-comment>
-      <edit-comment>编辑此注释</edit-comment>
+      <remove-comment>删除此评论</remove-comment>
+      <edit-comment>编辑此评论</edit-comment>
     </tooltip>
   </Comments>
   <UIDocumentInfo>
