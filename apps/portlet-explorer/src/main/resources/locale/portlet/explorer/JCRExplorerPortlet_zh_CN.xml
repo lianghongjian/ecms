@@ -644,7 +644,7 @@
       <UISavedQuery>保存的查询</UISavedQuery>
       <AdvancedSearchResult>搜索结果</AdvancedSearchResult>
       <UISimpleSearch>简单搜索</UISimpleSearch>
-      <UISearchContainer>高级的搜索</UISearchContainer>
+      <UISearchContainer>高级搜索</UISearchContainer>
       <UICategoryManagerSearch>将类别添加到搜索</UICategoryManagerSearch>
       <UIConstraintsForm>限制窗体</UIConstraintsForm>
       <UIViewSearchResult>查看内容</UIViewSearchResult>
