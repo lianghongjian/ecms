@@ -356,7 +356,7 @@
       <ShowAllOwnedByUser>显示我的所有项目</ShowAllOwnedByUser>
       <ShowAllFavourite>显示所有收藏夹项目</ShowAllFavourite>
       <ShowAllHidden>显示所有隐藏的项目</ShowAllHidden>
-      <ShowAllFromTrash>显示垃圾箱中所有项目</ShowAllFromTrash>
+      <ShowAllFromTrash>显示回收站中所有项目</ShowAllFromTrash>
     </title>
   </UIActionBar>
   <UIPopupMenu>
