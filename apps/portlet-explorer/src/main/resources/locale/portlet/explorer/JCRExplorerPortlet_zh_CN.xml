@@ -18,7 +18,7 @@
     </action>
     <msg>
       <not-support>你不能评论此文档类型。</not-support>
-      <not-checkedout>您必须签出该节点之前对其进行评论。</not-checkedout>
+      <not-checkedout>您必须检出该节点之前对其进行评论。</not-checkedout>
       <content-null>你不能发布一个空的评论。</content-null>
     </msg>
   </UICommentForm>
@@ -46,7 +46,7 @@
     </button>
     <msg>
       <not-support>您不能为此文档类型投票。</not-support>
-      <not-checkedout>在表决前，您必须签出该节点。</not-checkedout>
+      <not-checkedout>在表决前，您必须检出该节点。</not-checkedout>
       <vote-restriction>您不能投票超过一次。</vote-restriction>
     </msg>
   </UIVoteForm>
@@ -205,7 +205,7 @@
       <rename-denied>访问被拒绝。您不能重命名此节点。</rename-denied>
       <fileName-invalid>新名称中包含一些无效的字符。</fileName-invalid>
       <newName-same-oldName>新的名称已经存在。请再次检查。</newName-same-oldName>
-      <version-exception>此节点 （或此节点的祖先） 未签出。</version-exception>
+      <version-exception>此节点 （或此节点的父文件） 未检出。</version-exception>
       <lock-exception>此节点将被锁定。请在重命名之前解锁。</lock-exception>
       <constraintViolation-exception>重命名节点"{0}"时出错。请再次检查。</constraintViolation-exception>
       <unknown-prefix>前缀 '{0}' 尚未尚未注册。</unknown-prefix>
@@ -314,7 +314,7 @@
     </tooltip>
     <msg>
       <cannot-action-in-rootnode>您不能在根节点中执行此操作。</cannot-action-in-rootnode>
-      <node-checkedin>您必须先签出。</node-checkedin>
+      <node-checkedin>您必须先检出。</node-checkedin>
       <cannot-enable-version-rootnode>不能启用根节点的版本控制。</cannot-enable-version-rootnode>
       <cannot-enable-publication-rootnode>不能启用用于根节点的出版物。</cannot-enable-publication-rootnode>
       <manage-publication>
@@ -324,7 +324,7 @@
       <unsubcriber-lifecycle>该节点已经被取消订阅。</unsubcriber-lifecycle>
       <not-supported-nodetype>退订器生命周期支持仅限于文档节点。</not-supported-nodetype>
       <unsubcriber-lifecycle-finish>该节点已被成功取消订阅。</unsubcriber-lifecycle-finish>
-      <access-false>该节点不是一篇文章或签入。</access-false>
+      <access-false>该节点不是一篇文章或已被检入。</access-false>
       <unsupported-action>不支持此操作。</unsupported-action>
       <not-relationable>此节点尚未有任何相关的链接到另一个节点。</not-relationable>
       <node-pasted>节点 {0} 已粘贴到位置 {1}。已经保存了此操作。</node-pasted>
@@ -344,9 +344,9 @@
       <not-supported>此功能只支持文档类型。</not-supported>
       <empty-file-type>您不能将文档添加到此节点。</empty-file-type>
       <unsupported-watch>只有文档节点可以看。</unsupported-watch>
-      <watch-checkedin>在看之前，您必须签出该节点。</watch-checkedin>
+      <watch-checkedin>在看之前，您必须检出该节点。</watch-checkedin>
       <unsupported-tagging>只能给文档节点加标签。</unsupported-tagging>
-      <tagnode-checkedin>在加标签前，您必须签出该节点。</tagnode-checkedin>
+      <tagnode-checkedin>在加标签前，您必须检出该节点。</tagnode-checkedin>
     </msg>
     <title>
       <select-tab>选择选项卡</select-tab>
@@ -380,12 +380,12 @@
       <does-not-support-versioning>你并没有将移到此节点的权限。请与管理员联系。</does-not-support-versioning>
       <path-not-found>此元素被删除或更改。请单击刷新按钮。</path-not-found>
       <paste-lock-exception>你不能粘贴 '{0}' 到此节点，因为源或目标节点处于锁定状态或有关的锁定节点。</paste-lock-exception>
-      <can-not-checkin-node>您不能签入此节点。请检查您具有正确的权限。</can-not-checkin-node>
-      <can-not-checkout-node>您不能签入此节点。请检查您具有正确的权限。</can-not-checkout-node>
+      <can-not-checkin-node>您不能检入此节点。请检查您具有正确的权限。</can-not-checkin-node>
+      <can-not-checkout-node>您不能检入此节点。请检查您具有正确的权限。</can-not-checkout-node>
       <move-constraint-exception>移动节点时出错。</move-constraint-exception>
       <not-lock-owner>因为你不是锁的所有者，您无法解锁此节点。</not-lock-owner>
       <is-checked-in>请在重命名之前查阅此节点。</is-checked-in>
-      <is-checked-in-lock>请锁定前签出此节点。</is-checked-in-lock>
+      <is-checked-in-lock>请锁定前检出此节点。</is-checked-in-lock>
       <cant-lock>您不能锁定此节点。</cant-lock>
       <node-locked>具有路径 {0} 或上部级别的项被锁定。</node-locked>
       <can-not-delete>请在删除之前，关闭此节点。</can-not-delete>
@@ -399,7 +399,7 @@
       <has-not-add-permission>您没有权限添加一个新节点。</has-not-add-permission>
       <node-cutting>节点正被削减。您不能将其粘贴在这里。</node-cutting>
       <access-denied>访问被拒绝。您可能没有权限在此节点中。</access-denied>
-      <remove-verion-exception>您无法删除此节点，因为它 （或其祖先） 已签入。</remove-verion-exception>
+      <remove-verion-exception>您无法删除此节点，因为它 （或其父文件） 已检入。</remove-verion-exception>
       <remove-referentialIntegrityException>不能删除此节点，因为它当前引用的属性的目标。</remove-referentialIntegrityException>
       <constraintviolation-exception>找不到强制性项目 jcr:uuid。该节点可能已删除或更改。请单击刷新按钮。</constraintviolation-exception>
       <path-not-found-exception>此节点已被删除或更改。请单击刷新按钮。</path-not-found-exception>
@@ -527,8 +527,8 @@
       <Copy>复制</Copy>
       <Save>#{word.save}</Save>
       <RemoveNode>删除</RemoveNode>
-      <Checkin>签入</Checkin>
-      <Checkout>签出</Checkout>
+      <Checkin>检入</Checkin>
+      <Checkout>检出</Checkout>
       <Lock>锁定</Lock>
       <Unlock>解锁​​​​</Unlock>
       <EditDocument>编辑</EditDocument>
@@ -578,8 +578,8 @@
       <Save>#{word.save}</Save>
       <Cut>剪切</Cut>
       <Paste>粘贴</Paste>
-      <CheckOut>签出</CheckOut>
-      <CheckIn>签入</CheckIn>
+      <CheckOut>检出</CheckOut>
+      <CheckIn>检入</CheckIn>
       <WebDAV>视图 WebDAV</WebDAV>
       <autoversion>自动版本控制</autoversion>
       <Custom>定制：</Custom>
@@ -1359,7 +1359,7 @@
       <have-no-view-template>不支持视图模板。</have-no-view-template>
       <cannot-remove-version>您不能删除的基版本。</cannot-remove-version>
       <confirm-delete>是否确实要删除此版本?</confirm-delete>
-      <not-checked-out>您必须在恢复之前签出此节点。</not-checked-out>
+      <not-checked-out>您必须在恢复之前检出此节点。</not-checked-out>
       <invalid-item-state>你不能还原此版本，因为在运行阶段一个或多个项目被删除或移动。</invalid-item-state>
     </msg>
     <action>
@@ -1707,7 +1707,7 @@
 </tooltip>
     <msg>
       <cannot-save>保存文档时出错。</cannot-save>
-      <in-versioning>请添加一个新的节点前，签出当前节点。</in-versioning>
+      <in-versioning>请添加一个新的节点前，检出当前节点。</in-versioning>
       <not-support>无法加载 '{0}'的模板。</not-support>
       <value-invalid>'{0}' 是所需的值。</value-invalid>
       <repository-exception>保存文档时出错。</repository-exception>
@@ -2148,7 +2148,7 @@
       <mimetype-incorrect>不正确的文件类型。仅可以从。JPG。PNG 或。GIF 文件。创建缩略图</mimetype-incorrect>
       <access-denied>访问被拒绝。您没有权限将此节点添加一个缩略图。</access-denied>
       <confirm-delete>确实要删除此缩略图吗?</confirm-delete>
-      <is-checked-in>此节点被签入。请在执行任何操作之前签出。</is-checked-in>
+      <is-checked-in>此节点被检入。请在执行任何操作之前检出。</is-checked-in>
       <fileName-error>请选择要上载的文件。</fileName-error>
     </msg>
     <title>
@@ -2531,7 +2531,7 @@
 
   <UIPopupMenu>
     <msg>
-      <can-not-unlock-node-is-checked-in>你不能解锁因为节点"{0}"(或其祖先) 已签入。</can-not-unlock-node-is-checked-in>
+      <can-not-unlock-node-is-checked-in>你不能解锁因为节点"{0}"(或父文件) 已检入。</can-not-unlock-node-is-checked-in>
     </msg>
   </UIPopupMenu>
 
@@ -3136,8 +3136,8 @@
   <UIPopupMenu>
   <msg>
 <can-not-remove-locked-node>节点 {0} 已被锁定。不能将它移动到垃圾桶。</can-not-remove-locked-node>
-<can-not-remove-checked-in-node>节点 {0} 或其父被签入。不能将它移动到垃圾桶。</can-not-remove-checked-in-node>
-<access-denied-to-delete>访问被拒绝。您不能将节点 {0}移动到垃圾桶。</access-denied-to-delete>
+<can-not-remove-checked-in-node>节点 {0} 或其父文件被检入。不能将它移动到回收站。</can-not-remove-checked-in-node>
+<access-denied-to-delete>访问被拒绝。您不能将节点 {0}移动到回收站。</access-denied-to-delete>
   </msg>
   </UIPopupMenu>
   <UIPropertyForm>
@@ -3221,6 +3221,6 @@
   ###################################################################################
   -->
   <VersionException>
-  <msg>不能修改正在签入的文档。</msg>  
+  <msg>不能修改正在检入的文档。</msg>  
   </VersionException>
 </bundle>

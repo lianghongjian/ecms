@@ -100,7 +100,7 @@
       <Media>媒体</Media>
     </selectBoxValues>
     <msg>
-      <node-checkout>该节点已签出。请执行此功能之前，检查该节点。</node-checkout>
+      <node-checkout>该节点已检出。请执行此功能之前，检查该节点。</node-checkout>
     </msg>
   </UIContentBrowsePanelOne>
 
@@ -306,7 +306,7 @@
       <node-locked>其父母之一或路径元素 {0} 已被锁定。</node-locked>
       <userOrGroup-required>您必须选择一个用户或组。</userOrGroup-required>
       <checkbox-require>您必须设置权限。</checkbox-require>
-      <node-checkedin>您必须签出第一次。</node-checkedin>
+      <node-checkedin>您必须检出第一次。</node-checkedin>
     </msg>
   </UIPermissionManagerGrid>
 

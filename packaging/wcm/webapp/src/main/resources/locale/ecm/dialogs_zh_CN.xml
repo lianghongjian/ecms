@@ -240,7 +240,7 @@
       <label>
         <version-history>版本历史记录</version-history>
         <base-version>基本版本</base-version>
-        <is-checked-out>已签出</is-checked-out>
+        <is-checked-out>已检出</is-checked-out>
         <predecessors>前置任务</predecessors>
         <merge-failed>合并失败</merge-failed>
         <uuid>UUID</uuid>
