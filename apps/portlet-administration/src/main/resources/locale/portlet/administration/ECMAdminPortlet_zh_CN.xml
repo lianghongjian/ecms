@@ -988,8 +988,8 @@
       <publicationPublish>发布</publicationPublish>
 <contentNavigation>文档导航</contentNavigation>
 <addSymLink>添加符号链接</addSymLink>
-      <checkIn>导入</checkIn>
-      <checkOut>导出</checkOut>
+      <checkIn>检入</checkIn>
+      <checkOut>检出</checkOut>
       <shareDocuments>分享</shareDocuments>
       <openDocument>远程编辑</openDocument>
       <editProperty>编辑文档属性</editProperty>
