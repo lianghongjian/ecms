@@ -228,7 +228,7 @@
       <UIPermissionManager>权限管理</UIPermissionManager>
       <UIPropertiesManager>属性管理</UIPropertiesManager>
       <UIECMSearch>高级搜索</UIECMSearch>
-      <UISavedQuery>保存的查询列表</UISavedQuery>
+      <UISavedQuery>保存的搜索列表</UISavedQuery>
       <UIWatchDocumentForm>观看文档</UIWatchDocumentForm>
       <UIActionManager>管理操作</UIActionManager>
       <UIDocumentForm>编辑文档</UIDocumentForm>
@@ -352,7 +352,7 @@
       <select-tab>选择选项卡</select-tab>
       <SimpleSearch>快速搜索</SimpleSearch>
       <AdvanceSearch>高级搜索</AdvanceSearch>
-      <SavedQueries>保存的查询</SavedQueries>
+      <SavedQueries>已保存的搜索</SavedQueries>
       <ShowAllOwnedByUser>显示我的所有项目</ShowAllOwnedByUser>
       <ShowAllFavourite>显示所有收藏夹项目</ShowAllFavourite>
       <ShowAllHidden>显示所有隐藏的项目</ShowAllHidden>
@@ -640,8 +640,8 @@
       <UIMetadataTab>元数据</UIMetadataTab>
       <UIPropertyForm>添加新的属性</UIPropertyForm>
       <UIUploadContent>上载的文件信息</UIUploadContent>
-      <UIJCRAdvancedSearch>新的查询</UIJCRAdvancedSearch>
-      <UISavedQuery>保存的查询</UISavedQuery>
+      <UIJCRAdvancedSearch>新的搜索</UIJCRAdvancedSearch>
+      <UISavedQuery>已保存的搜索</UISavedQuery>
       <AdvancedSearchResult>搜索结果</AdvancedSearchResult>
       <UISimpleSearch>简单搜索</UISimpleSearch>
       <UISearchContainer>高级搜索</UISearchContainer>
@@ -1172,8 +1172,8 @@
   <UIJCRAdvancedSearch>
     <label>
       <name>名称：</name>
-      <selectBox>选择查询方式:</selectBox>
-      <query>查询：</query>
+      <selectBox>选择搜索方式:</selectBox>
+      <query>搜索：</query>
     </label>
     <action>
       <Save>#{word.save}</Save>
@@ -1264,7 +1264,7 @@
   </UIResult>
   <UISaveQueryForm>
     <msg>
-      <query-name-null>请输入要保存的查询名称。</query-name-null>
+      <query-name-null>请输入要保存的搜索名称。</query-name-null>
       <access-denied>访问被拒绝。您没有保存该查询所需的添加权限。</access-denied>
       <save-failed>您不能保存查询，因为该语句是无效的或者因为该查询名称已经存在。</save-failed>
     </msg>
