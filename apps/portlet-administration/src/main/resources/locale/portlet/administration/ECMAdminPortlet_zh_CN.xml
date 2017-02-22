@@ -966,34 +966,34 @@
       <viewProperties>查看属性</viewProperties>
       <manageVersions>管理版本</manageVersions>
       <manageAuditing>管理审核</manageAuditing>
-      <managePublications>管理出版物</managePublications>
+      <managePublications>管理已发布文档</managePublications>
       <manageCategories>管理类别</manageCategories>
       <manageRelations>管理关联</manageRelations>
       <manageActions>管理操作</manageActions>
-      <exportNode>导出节点</exportNode>
-      <importNode>导入节点</importNode>
+      <exportNode>导出代码</exportNode>
+      <importNode>导入代码</importNode>
       <viewRelations>查看关联</viewRelations>
       <showJCRStructure>显示 JCR 结构</showJCRStructure>
       <watchDocument>观看文档</watchDocument>
       <taggingDocument>标记文档</taggingDocument>
       <viewMetadatas>查看元数据</viewMetadatas>
       <overloadThumbnail>添加缩略图</overloadThumbnail>
-      <manageHidden>隐藏/显示内容</manageHidden>
+      <manageHidden>隐藏/显示文档</manageHidden>
       <comment>评论</comment>
       <vote>投票</vote>  
       <addCategory>添加类别</addCategory>
       <addLocalizationLink>添加翻译</addLocalizationLink>
       <publicationRequestApproval>请求批准</publicationRequestApproval>
-      <publicationApproveContent>批准内容</publicationApproveContent>
+      <publicationApproveContent>批准文档</publicationApproveContent>
       <publicationPublish>发布</publicationPublish>
-<contentNavigation>内容导航</contentNavigation>
+<contentNavigation>文档导航</contentNavigation>
 <addSymLink>添加符号链接</addSymLink>
       <checkIn>导入</checkIn>
       <checkOut>导出</checkOut>
       <shareDocuments>分享</shareDocuments>
       <openDocument>远程编辑</openDocument>
       <editProperty>编辑文档属性</editProperty>
-      <uploadNewVersion>上传一个新版本</uploadNewVersion>
+      <uploadNewVersion>上传新版本</uploadNewVersion>
     </label>
     <action>
       <Save>#{word.save}</Save>      
