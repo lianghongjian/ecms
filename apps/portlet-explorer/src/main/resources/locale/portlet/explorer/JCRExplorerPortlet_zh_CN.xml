@@ -301,7 +301,7 @@
       <ExportNode>导出</ExportNode>
       <ImportNode>导入</ImportNode>
       <OverloadThumbnail>更新缩略图图像</OverloadThumbnail>
-      <ManageHidden>显示/隐藏内容</ManageHidden>
+      <ManageHidden>显示/隐藏文档</ManageHidden>
       <ViewReferences>引用</ViewReferences>
       <ViewNodeType>类型</ViewNodeType>
       <ViewPermissions>权限</ViewPermissions>
