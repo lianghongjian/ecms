@@ -339,8 +339,8 @@
       <access-denied>访问被拒绝。你在此节点中没有编辑权限。</access-denied>
       <access-add-denied>访问被拒绝。你在此节点中没有添加权限。</access-add-denied>
       <item-existed>此节点已存在。它不能有相同的名称作为其兄弟。</item-existed>
-      <removed-hidden-mixin>您删除成功隐藏米心。</removed-hidden-mixin>
-      <added-hidden-mixin>您添加成功隐藏mixin。</added-hidden-mixin>
+      <removed-hidden-mixin>取消隐藏成功。</removed-hidden-mixin>
+      <added-hidden-mixin>隐藏成功。</added-hidden-mixin>
       <not-supported>此功能只支持文档类型。</not-supported>
       <empty-file-type>您不能将文档添加到此节点。</empty-file-type>
       <unsupported-watch>只有文档节点可以看。</unsupported-watch>
