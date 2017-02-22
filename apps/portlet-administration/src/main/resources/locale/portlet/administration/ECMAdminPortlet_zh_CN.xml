@@ -970,7 +970,7 @@
       <manageCategories>管理类别</manageCategories>
       <manageRelations>管理关联</manageRelations>
       <manageActions>管理操作</manageActions>
-      <exportNode>出口节点</exportNode>
+      <exportNode>导出节点</exportNode>
       <importNode>导入节点</importNode>
       <viewRelations>查看关联</viewRelations>
       <showJCRStructure>显示 JCR 结构</showJCRStructure>

@@ -1321,7 +1321,7 @@
       <Cancel>#{word.cancel}</Cancel>
       <Export>导出</Export>
     </action>
-    <title>出口节点</title>
+    <title>导出节点</title>
   </UIExportNode>
   <!--
   ###############################################################################
