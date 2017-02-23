@@ -34,7 +34,7 @@
 
   <Drives>
     <label>
-      <ManagedSites>站点管理</ManagedSites>
+      <ManagedSites>网站管理</ManagedSites>
       <SharedSite>共享的网站</SharedSite>
     </label>
   </Drives>
@@ -177,7 +177,7 @@
 
   <UIContentSearchForm>
     <title>
-      <Location>站点名称</Location>
+      <Location>网站名称</Location>
       <SearchByName>名称搜索</SearchByName>
       <Fulltext>单词或短语在上下文中</Fulltext>
       <Property>属性</Property>

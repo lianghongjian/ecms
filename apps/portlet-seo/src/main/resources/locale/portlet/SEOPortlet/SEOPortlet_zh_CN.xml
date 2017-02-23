@@ -8,7 +8,7 @@
       <language>语言：</language>
       <robots>机器人：</robots>
       <sitemap>网站地图：</sitemap>
-      <sitemapvisible>在站点地图中可见</sitemapvisible>
+      <sitemapvisible>在网页地图中可见</sitemapvisible>
     <isInherited>继承自父页</isInherited>
       <priority>优先级：</priority>
       <frequency>频率：</frequency>

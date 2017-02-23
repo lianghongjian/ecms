@@ -31,7 +31,7 @@
         <name>#{word.name}</name>
         <title>标题</title>
         <ContentCSS>CSS 数据</ContentCSS>
-        <hintCSS>您可以为您的 web 内容指定主样式表。此样式会覆盖在站点级别和共享级别定义的样式表。</hintCSS>
+        <hintCSS>您可以为您的 web 内容指定主样式表。此样式会覆盖在网页级别和共享级别定义的样式表。</hintCSS>
         <ContentJS>JS 数据</ContentJS>
         <hintJS>您可以指定一些 JavaScript 代码可以执行的呈现您的 web 内容之前。</hintJS>
         <WebContentHtml>主要内容</WebContentHtml>
