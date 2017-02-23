@@ -593,9 +593,9 @@
       <AddThumbnail>添加/删除缩略图</AddThumbnail>
       <AddToFavourite>添加到收藏夹</AddToFavourite>
       <RemoveFromFavourite>从收藏夹中删除</RemoveFromFavourite>
-      <MoveToTrash>移到垃圾桶</MoveToTrash>
-      <RestoreFromTrash>从垃圾桶中还原</RestoreFromTrash>
-      <EmptyTrash>倾倒垃圾桶</EmptyTrash>
+      <MoveToTrash>移到回收站</MoveToTrash>
+      <RestoreFromTrash>从回收站中还原</RestoreFromTrash>
+      <EmptyTrash>清空回收站</EmptyTrash>
       <WebDavView>用微软办公软件打开</WebDavView>
       <Download>下载</Download>
       <OpenDocument>远程编辑</OpenDocument>
@@ -1068,7 +1068,7 @@
       <View>查看文件</View>
       <OpenFolder>转到文件夹</OpenFolder>
       <DeletePermanently>Delete permanently</DeletePermanently>
-      <RestoreFromTrash>从垃圾桶中还原</RestoreFromTrash>
+      <RestoreFromTrash>从回收站中还原</RestoreFromTrash>
     </tooltip>
   </UIShowAllTrashResult>
   <UIConstraintsForm>
@@ -2648,7 +2648,7 @@
       <OwnedByMe>由我负责</OwnedByMe>
       <Favourites>收藏夹</Favourites>
       <Hidden>隐藏</Hidden>
-      <Trash>垃圾桶</Trash>
+      <Trash>回收站</Trash>
       <Configuration>设置首选项</Configuration>
     </label>
     <title>
@@ -2732,7 +2732,7 @@
       <showOwnedByUser>由我负责</showOwnedByUser>
       <showFavourites>收藏夹</showFavourites>
       <showHiddens>隐藏</showHiddens>
-      <showTrash>垃圾桶</showTrash>
+      <showTrash>回收站</showTrash>
     </label>
     <action>
       <Save>#{word.save}</Save>
