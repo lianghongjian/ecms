@@ -162,7 +162,7 @@
       <showHiddenNode>显示隐藏的节点：</showHiddenNode>
       <showNonDocument>显示非文档节点：</showNonDocument>
       <showRefDocuments>显示引用的文档：</showRefDocuments>
-      <enableDragAndDrop>启用拖 &amp; 拖放：</enableDragAndDrop>
+      <enableDragAndDrop>启用拖放功能：</enableDragAndDrop>
       <sortBy>排序依据:</sortBy>
       <order>顺序:</order>
       <nodesPerPage>每页显示数</nodesPerPage>
