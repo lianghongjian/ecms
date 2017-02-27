@@ -15,7 +15,7 @@
     </info>
     <action>
       <title>
-        <select>请选择</select>
+        <select>确定</select>
       </title>
     </action>
   </UITreeList>

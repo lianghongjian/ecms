@@ -68,7 +68,7 @@
       <child-not-found>发现没有页面。</child-not-found>
     </msg>
     <title>
-      <select>请选择</select>
+      <select>确定</select>
     </title>
   </UIPageSelectorPanel>
 
@@ -254,7 +254,7 @@
       <action>操作</action>
     </header>
     <title>
-      <Select>请选择</Select>
+      <Select>确定</Select>
       <View>查看</View>
     </title>
     <msg>
