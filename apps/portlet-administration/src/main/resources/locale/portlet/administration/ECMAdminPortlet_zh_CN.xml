@@ -784,7 +784,7 @@
       <UIViewContainer>视图</UIViewContainer>
       <ECMTemplate>资源管理器的模板</ECMTemplate>
       <UIScriptForm>脚本</UIScriptForm>
-      <UIDialogTab>对话</UIDialogTab>
+      <UIDialogTab>代码</UIDialogTab>
       <UIViewTab>查看</UIViewTab>
       <UITemplateEditForm>模板</UITemplateEditForm>
       <UITemplateForm>模板</UITemplateForm>
