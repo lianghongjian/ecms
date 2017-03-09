@@ -26,7 +26,7 @@
       <UIQueriesManager>查询</UIQueriesManager>
       <UIActionManager>操作</UIActionManager>
       <UIScriptManager>脚本</UIScriptManager>
-      <UIUnLockManager>锁</UIUnLockManager>
+      <UIUnLockManager>锁定</UIUnLockManager>
       <UIFolksonomyManager>标签</UIFolksonomyManager>      
     </label>
     <msg>
@@ -2291,7 +2291,7 @@
 <UIECMAdminControlPanel>
     <tab>
       <label>        
-        <ManageUnLock>管理锁</ManageUnLock>
+        <ManageUnLock>管理锁定</ManageUnLock>
       </label>
     </tab>        
 </UIECMAdminControlPanel>
@@ -2324,7 +2324,7 @@
   <UILockNodeList>
   <header>
   <name>标题</name>
-  <hoderLock>锁的所有者</hoderLock>
+  <hoderLock>锁定的所有者</hoderLock>
   <action>操作</action>
   </header>
   <tooltip>
@@ -2336,7 +2336,7 @@
   </UILockNodeList>
   <EditUnLockForm>
     <title>
-      <UIUnLockForm>管理锁</UIUnLockForm>
+      <UIUnLockForm>管理锁定</UIUnLockForm>
     </title>
   </EditUnLockForm>  
   <UITabPane>
