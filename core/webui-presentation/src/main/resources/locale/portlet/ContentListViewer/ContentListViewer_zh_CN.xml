@@ -144,7 +144,7 @@
     </label>
     <action>
       <refresh>刷新</refresh>
-      <edit>在内容资源管理器中编辑</edit>
+      <edit>编辑</edit>
       <delete>删除</delete>
       <publish>发布</publish>
     </action>

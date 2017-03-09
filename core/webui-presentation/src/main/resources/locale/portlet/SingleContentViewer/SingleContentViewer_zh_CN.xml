@@ -2,7 +2,7 @@
 <bundle>
   <UIPresentationContainer>
     <title>
-      <QuickEdit>在内容资源管理器中编辑</QuickEdit>
+      <QuickEdit>编辑</QuickEdit>
       <print>打印此页</print>
       <FastPublish>发布</FastPublish>
     </title>

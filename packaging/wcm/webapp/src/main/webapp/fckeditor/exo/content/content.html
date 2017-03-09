@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-		<title>FCKEditor Plugins eXo Utils</title>
+		<title>FCKEditor插件应用</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
 		<meta http-equiv="cache-control" content="no-cache"/>
 		<meta http-equiv="pragma" content="no-cache"/>
@@ -36,12 +36,12 @@
 			</div>
 			<div class="UIWorkingWorkspace">
 				<div class="ActionBar">
-					<div class="FinterTitle" userLanguage="UserLanguage.Filter">Filter: </div>
+					<div class="FinterTitle" userLanguage="UserLanguage.Filter">筛选 </div>
 					<div class="FinterInput">
 						<select class="Pinter" id="Pinter" onchange="eXoWCM.PluginUtils.changeFilter();">
-							<option value="Web Contents" selected="selected" userLanguage="UserLanguage.WebContents">Web Contents</option>
-							<option value="DMS Documents" userLanguage="UserLanguage.DMSDocuments">DMS Documents</option>
-							<option value="Medias" userLanguage="UserLanguage.Medias">Medias</option>
+							<option value="Web Contents" selected="selected" userLanguage="UserLanguage.WebContents">网站文件</option>
+							<option value="DMS Documents" userLanguage="UserLanguage.DMSDocuments">DMS文件</option>
+							<option value="Medias" userLanguage="UserLanguage.Medias">媒体</option>
 						</select>
 					</div>
 					<div class="SeparatorLineL"><span></span></div>
@@ -52,13 +52,13 @@
 					-->
 					<!--====================================== UPLOAD ============================================-->
 					<div class="ControlButton UploadIcon" id="UploadItem" style="display:none;">
-							<a class="Item IconUpload" href="javascript:void(0);" onclick="eXoWCM.UploadForm.showUploadForm();" userLanguage="UserLanguage.UploadFile">Upload File</a>
+							<a class="Item IconUpload" href="javascript:void(0);" onclick="eXoWCM.UploadForm.showUploadForm();" userLanguage="UserLanguage.UploadFile">上传文档</a>
 					</div>
 					<!-- ====================================== UPLOAD ============================================-->					
 					<!-- ====================================== SETTING ============================================-->
 					<!-- div class="SettingIcon" onmouseover="eXoWCM.PluginUtils.showSettings(this);" style="position:relative;">  -->
 					<div class="SettingIcon" onmouseover="" style="position:relative;">	
-						<a href="#" userLanguage="UserLanguage.SettingTitle">Setting</a>
+						<a href="#" userLanguage="UserLanguage.SettingTitle">设置</a>
 						<div class="SettingContainer">
 				      <div style="display: none; position: absolute;" class="UIRightClickPopupMenu">
 				      	<div class="UIContextMenuContainer">
@@ -71,7 +71,7 @@
 					          <div class="MiddleRightRightClickPopupMenu">
 					            <div class="UIRightPopupMenuContainer">
 					              <div class="MenuItem" style="white-space:nowrap;" onmouseover="eXoWCM.PluginUtils.showSubMenuSettings(this);">   
-					                <a href="#" class="DefaultPageIcon ItemIcon MarkReadIcon" userLanguage="UserLanguage.SetView">View</a>
+					                <a href="#" class="DefaultPageIcon ItemIcon MarkReadIcon" userLanguage="UserLanguage.SetView">查看</a>
 				                	<div class="ChildrenContainer" style="position: relative;">
 														<div style="display: none; position: absolute;" class="UIRightClickPopupMenu">
 															<div class="UIContextMenuContainer">
@@ -84,10 +84,10 @@
 																	<div class="MiddleRightRightClickPopupMenu">
 																		<div class="UIRightPopupMenuContainer">
 																			<div class="MenuItem" style="white-space:nowrap;">   
-																				<a href="#" class="DefaultPageIcon ItemIcon MarkReadIcon" userLanguage="UserLanguage.ViewList">List</a>   
+																				<a href="#" class="DefaultPageIcon ItemIcon MarkReadIcon" userLanguage="UserLanguage.ViewList">列表</a>   
 																			</div>
 																			<div class="MenuItem">   
-																				<a href="#" class="DefaultPageIcon ItemIcon MarkReadIcon" userLanguage="UserLanguage.ViewThumbnail">Thumbnails</a>  
+																				<a href="#" class="DefaultPageIcon ItemIcon MarkReadIcon" userLanguage="UserLanguage.ViewThumbnail">缩略图</a>  
 																			</div>
 																		</div>
 																	</div>
@@ -102,7 +102,7 @@
 													</div>
 					              </div>
 					              <div class="MenuItem">   
-					                <a href="#" class="DefaultPageIcon ItemIcon MarkReadIcon" userLanguage="UserLanguage.SetSort">Sort</a>
+					                <a href="#" class="DefaultPageIcon ItemIcon MarkReadIcon" userLanguage="UserLanguage.SetSort">排序</a>
 					                	<div class="ChildrenContainer" style="position: relative;">
 															<div style="display: none; position: absolute;" class="UIRightClickPopupMenu">
 																<div class="UIContextMenuContainer">
@@ -115,13 +115,13 @@
 																		<div class="MiddleRightRightClickPopupMenu">
 																			<div class="UIRightPopupMenuContainer">
 																				<div class="MenuItem" style="white-space:nowrap;">   
-																					<a href="#" class="DefaultPageIcon ItemIcon MarkReadIcon" userLanguage="UserLanguage.SortName">By Name</a>   
+																					<a href="#" class="DefaultPageIcon ItemIcon MarkReadIcon" userLanguage="UserLanguage.SortName">按照名称</a>   
 																				</div>
 																				<div class="MenuItem">   
-																					<a href="#" class="DefaultPageIcon ItemIcon MarkReadIcon" userLanguage="UserLanguage.SortDate">By Date</a>  
+																					<a href="#" class="DefaultPageIcon ItemIcon MarkReadIcon" userLanguage="UserLanguage.SortDate">按照日期</a>  
 																				</div>
 																				<div class="MenuItem">   
-																					<a href="#" class="DefaultPageIcon ItemIcon MarkReadIcon" userLanguage="UserLanguage.SortSize">By Size</a>  
+																					<a href="#" class="DefaultPageIcon ItemIcon MarkReadIcon" userLanguage="UserLanguage.SortSize">按照大小</a>  
 																				</div>
 																			</div>
 																		</div>
@@ -163,13 +163,13 @@
 						  	<table cellspacing="0" style="table-layout: fixed; width: 100%;" id="ListRecords">
 						    	<thead>
 						    		<tr>
-						    		  <th class="THBar" userLanguage="UserLanguage.FileName"> Name </th>
-							   	      <th class="THBar" style="width: 120px;" userLanguage="UserLanguage.CreateDate"> Date </th>
-							   	      <th class="THBar" style="width: 80px;" userLanguage="UserLanguage.FileSize"> Size </th>
+						    		  <th class="THBar" userLanguage="UserLanguage.FileName"> 名称 </th>
+							   	      <th class="THBar" style="width: 120px;" userLanguage="UserLanguage.CreateDate"> 日期 </th>
+							   	      <th class="THBar" style="width: 80px;" userLanguage="UserLanguage.FileSize"> 大小 </th>
 						    	 	</tr>
 						    	</thead>
 						    	<tr>
-						    		<td class="Item TRNoContent" colspan="3" userLanguage="UserLanguage.NoContent">There is no content</td>
+						    		<td class="Item TRNoContent" colspan="3" userLanguage="UserLanguage.NoContent">没有文档</td>
 						    	</tr>
 						  	</table>
 						</div>
@@ -185,7 +185,7 @@
 		
 	<div class="AlertContainer">
 		<div class="AlertForm">
-			<div align="center"><span userLanguage="UserLanguage.LabelAlert"> Please choose a file before upload !</span></div>
+			<div align="center"><span userLanguage="UserLanguage.LabelAlert"> 请在上传前选择文档</span></div>
 			<div class="UIAction">
 				<table class="ActionContainer LightBlueStyle" align="center">
 					<tr>
@@ -212,7 +212,7 @@
 			<table border="0" bordercolor="red" class="ActionContainer">
 				<tr class="PathFolder">
 					<td colspan="2" style="width: 100%; overflow: hidden;">
-						<span class="PathFolder" userLanguage="UserLanguage.LabelFolder"> Folder </span>
+						<span class="PathFolder" userLanguage="UserLanguage.LabelFolder"> 文件夹 </span>
 					</td>
 				</tr>
 				<tr class="UploadField">
@@ -269,7 +269,7 @@
 				<tr class="UploadAction" style="display: none;">
 					<td colspan="2">
 						<div style="margin: 3px 0px 3px 0px">
-							<span userLanguage="UserLanguage.LabelName"> Name </span>:
+							<span userLanguage="UserLanguage.LabelName"> 名称 </span>:
 							<input type="text" name="fileName" style="width: 238px;" maxlength="128"/>
 						</div>
 						<div class="UIAction">
