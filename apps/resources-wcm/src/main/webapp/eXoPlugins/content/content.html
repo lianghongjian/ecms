@@ -3,7 +3,7 @@
            "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-		<title>WCM Content Selector</title>
+		<title>文件选择</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
 		<meta http-equiv="cache-control" content="no-cache"/>
 		<meta http-equiv="pragma" content="no-cache"/>
@@ -104,7 +104,7 @@
 	<div class="uiHomePagePortlet uiHomeContentSelector">
 		<div class="UIHomePageDT uiBox" >
 
-			<h6 class="title TitleBar">Content Selector</h6>
+			<h6 class="title TitleBar">选择文档</h6>
 			<div class="uiWorkingWorkspace uiWCMSearchContainer" style="max-height: 500px;overflow: auto;">
 				<div class="actionBar uiGrayLightBox clearfix">
 					<div id="filterAreaID"></div>
@@ -131,7 +131,7 @@
 <div id="hideContainer" class="HideContainer" style="display: none;">
 	<div class="AlertContainer">
 		<div class="AlertForm">
-			<div align="center"><span userLanguage="UserLanguage.LabelAlert"> Please choose a file before upload !</span></div>
+			<div align="center"><span userLanguage="UserLanguage.LabelAlert"> 请在上传之前选择一个文件</span></div>
 			<div class="UIAction">
 				<table class="ActionContainer LightBlueStyle" align="center">
 					<tr>
@@ -149,13 +149,13 @@
 		<div class="UploadForm" >
 			<div class="popupHeader clearfix">
 				<a onclick="eXo.ecm.UploadForm.removeMask();" title="Close Window" class="uiIconClose pull-right"></a>
-				<span class="PopupTitle popupTitle" userLanguage="UserLanguage.UploadFile">Upload File</span>
+				<span class="PopupTitle popupTitle" userLanguage="UserLanguage.UploadFile">上传文档</span>
 			</div>
 			<div class="PopupContent popupContent">
 				<div class="resizable">
 					<div class="uploadButton center pd-15-0">
-						<label class="btn"  userLanguage="UserLanguage.SelectFile">Select File</label> 
-						<label class="noFile" style="" userLanguage="UserLanguage.LabelAlert">No file selected</label>
+						<label class="btn"  userLanguage="UserLanguage.SelectFile">选择文档</label> 
+						<label class="noFile" style="" userLanguage="UserLanguage.LabelAlert">未选择文档</label>
 					</div>
 
 					<table border="0"  class="ActionContainer">
@@ -206,8 +206,8 @@
 								<input type="text" id="fileName" name="fileName" placeholder="Name" maxlength="128"/>
 							</div>
 							<div class="uiAction mgB15 uiActionBorder">
-								<a href="javascript:void(0);" class="btn" onclick="eXo.ecm.UploadForm.preUploadFileSave();" userLanguage="UserLanguage.BtnSave">Save</a>
-								<a href="javascript:void(0);" class="btn"  onclick="eXo.ecm.UploadForm.uploadFileCancel();" userLanguage="UserLanguage.BtnCancel">Cancel</a>
+								<a href="javascript:void(0);" class="btn" onclick="eXo.ecm.UploadForm.preUploadFileSave();" userLanguage="UserLanguage.BtnSave">保存</a>
+								<a href="javascript:void(0);" class="btn"  onclick="eXo.ecm.UploadForm.uploadFileCancel();" userLanguage="UserLanguage.BtnCancel">取消</a>
 								
 							</div>
 						</td>
@@ -216,8 +216,8 @@
 				</table>
 				</div>
 				<div class="uiAction uiActionBorder">
-					<button type="button" class="btn SaveAction" onclick="eXo.ecm.UploadForm.uploadFile();" userLanguage="UserLanguage.BtnUpload">Upload</button> 
-					<button type="button" class="btn CancelAction" onclick="eXo.ecm.UploadForm.removeMask();" userLanguage="UserLanguage.BtnCancel">Cancel</button>
+					<button type="button" class="btn SaveAction" onclick="eXo.ecm.UploadForm.uploadFile();" userLanguage="UserLanguage.BtnUpload">上传</button> 
+					<button type="button" class="btn CancelAction" onclick="eXo.ecm.UploadForm.removeMask();" userLanguage="UserLanguage.BtnCancel">取消</button>
 				</div>
 			</div>
 			<span class="uiIconResize pull-right uiIconLightGray"></span>
