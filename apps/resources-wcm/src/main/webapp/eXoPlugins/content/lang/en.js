@@ -1,5 +1,5 @@
 var UserLanguage = {
-	Filter								:	"Filter",
+	Filter								:	"筛选",
 	All										: "Any",
 	WebContents							:   "Web Contents",
 	DMSDocuments						:	"DMS Documents",
