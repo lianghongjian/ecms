@@ -2423,7 +2423,7 @@
 </UITaxonomyTreeContainer>
 <UITaxonomyTreeMainForm>
 <action>
-<NextViewPermission>下一个</NextViewPermission>
+<NextViewPermission>下一页</NextViewPermission>
 <Reset>复位</Reset>
 </action>
 </UITaxonomyTreeMainForm>
@@ -2433,15 +2433,15 @@
 <Save>保存</Save>
 <Cancel>#{word.cancel}</Cancel>
 <Reset>重置</Reset>
-<NextAddAction>下一个</NextAddAction>
-<Previous>上一个</Previous>
+<NextAddAction>下一页</NextAddAction>
+<Previous>上一页</Previous>
 </action>
 </UIPermissionTreeForm>
 
 <UIActionForm>
 <action>
-<PreviousViewPermission>上一个</PreviousViewPermission>
-<NextViewTree>下一个</NextViewTree>
+<PreviousViewPermission>上一页</PreviousViewPermission>
+<NextViewTree>下一页</NextViewTree>
 </action>
   <msg>
     <xss-vulnerability-character>字段"{0}"包含 XSS 漏洞字符</xss-vulnerability-character>
@@ -2451,7 +2451,7 @@
 
 <UITaxonomyTreeWorkingArea>
 <action>
-<Previous>上一个</Previous>
+<Previous>上一页</Previous>
 </action>
 </UITaxonomyTreeWorkingArea>
 

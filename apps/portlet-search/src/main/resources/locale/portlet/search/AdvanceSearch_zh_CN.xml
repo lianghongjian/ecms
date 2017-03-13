@@ -70,8 +70,8 @@
   </UISearchForm>
   <UIPaginatorDefault>
     <label>
-      <next>下一个</next>
-      <previous>上一个</previous>
+      <next>下一页</next>
+      <previous>上一页</previous>
       <more>更多</more>
     </label>
   </UIPaginatorDefault>
