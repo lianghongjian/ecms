@@ -2447,7 +2447,7 @@
   <UIRestoreConfirmMessage>
     <label>
       <Close>#{word.close}</Close>
-      <OK>Ok</OK>
+      <OK>确定</OK>
       <ReplaceData>替换数据</ReplaceData>
       <Back>返回重命名</Back>
       <Keepfile>保持这两个文件</Keepfile>
