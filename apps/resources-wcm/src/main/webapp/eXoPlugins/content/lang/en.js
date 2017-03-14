@@ -1,56 +1,56 @@
 var UserLanguage = {
-	Filter								:	"Filter",
-	All										: "Any",
-	WebContents							:   "Web Contents",
-	DMSDocuments						:	"DMS Documents",
-	Medias								:	"Medias",
-	UploadFile							:	"Upload File",
+	Filter								:	"筛选",
+	All										: "所有",
+	WebContents							:   "网站内容",
+	DMSDocuments						:	"DMS文档",
+	Medias								:	"媒体",
+	UploadFile							:	"上传文件",
 
-	SettingTitle						: 	"Setting",
-	SetView								:	"View",
-	SetSort								: 	"Sort",
+	SettingTitle						: 	"设置",
+	SetView								:	"视图",
+	SetSort								: 	"排序",
 	
-	SortName							: 	"File name",
-	SortDate							: 	"Date",
-	SortSize							: 	"Size",
+	SortName							: 	"文档名称",
+	SortDate							: 	"日期",
+	SortSize							: 	"大小",
 	
-	ViewThumbnail						: 	"Thumbnail",
-	ViewList							: 	"List",
+	ViewThumbnail						: 	"缩略图",
+	ViewList							: 	"列表",
 
-  ViewThumbnailLabel    : "Thumbnail View",
-  ViewListLabel         : "List View",
+  ViewThumbnailLabel    : "缩略图视图",
+  ViewListLabel         : "列表视图",
 
-	Home								:	"Home",
+	Home								:	"首页",
 	
-	FileName							:	"Name",
-	CreateDate							:	"Date",
-	FileSize							:	"Size",
+	FileName							:	"名称",
+	CreateDate							:	"日期",
+	FileSize							:	"大小",
 
-	NoContent							:	"There is no content",
+	NoContent							:	"没有文件",
 	
-	BtnCancel							: 	"Cancel",
-	BtnUpload							: 	"Upload",
-	BtnSetting							: 	"Setting",
-	BtnClose							: 	"Close",
-	BtnSave								: 	"Save",
-	BtnAbort							: 	"Abort",
-	BtnDelete							: 	"Delete",
+	BtnCancel							: 	"取消",
+	BtnUpload							: 	"上传",
+	BtnSetting							: 	"设置",
+	BtnClose							: 	"关闭",
+	BtnSave								: 	"保存",
+	BtnAbort							: 	"中止",
+	BtnDelete							: 	"删除",
 	
-	LabelFolder							: 	"Folder",
-	LabelAlert							: 	"Please choose a file before upload",
-	LabelName							: 	"Name",
-	SelectFile							:	"Select File",
+	LabelFolder							: 	"文件夹",
+	LabelAlert							: 	"请在上传前选择文件",
+	LabelName							: 	"名称",
+	SelectFile							:	"选择文件",
 
 	//Document Auto Versioning
-	DocumentAuto_label_existing:"Existing file",
-	DocumentAuto_label_keepBoth:"Keep both",
-	DocumentAuto_label_createVersion:"Create a new version",
-	DocumentAuto_label_replace:"Replace",
-	DocumentAuto_label_or:"or",
-	DocumentAuto_label_cancel:"Cancel"
+	DocumentAuto_label_existing:"现有的文件",
+	DocumentAuto_label_keepBoth:"保留两个",
+	DocumentAuto_label_createVersion:"上传新版本",
+	DocumentAuto_label_replace:"替换",
+	DocumentAuto_label_or:"或者",
+	DocumentAuto_label_cancel:"取消"
 };
 
 CKEDITOR.plugins.setLang( 'content', 'en',
 { 
-  WCMInsertContentPlugins        : 'Insert Content Link'
+  WCMInsertContentPlugins        : '插入文件链接'
 } );
