@@ -38,7 +38,7 @@
       <cannot-save>类别未被保存。</cannot-save>
       <have-saved>类别已成功保存</have-saved>
       <non-categories>类别是错误的。请选择适当的类别。</non-categories>
-      <confirm-delete>你确定想要删除此类别吗？</confirm-delete>
+      <confirm-delete>您确定想要删除此类别吗？</confirm-delete>
     </msg>
   </UISelectedCategoriesGrid>
   <!--

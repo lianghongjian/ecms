@@ -369,7 +369,7 @@ PasteAsText		: "粘贴为无格式文本",
 PasteFromWord	: "从 MS Word 粘贴",
 
 DlgPasteMsg2	: "请使用键盘快捷键(<STRONG>Ctrl+V</STRONG>)把内容粘贴到下面的方框里，再按 <STRONG>确定</STRONG>。",
-DlgPasteSec		: "因为你的浏览器的安全设置原因，本编辑器不能直接访问你的剪贴板内容，你需要在本窗口重新粘贴一次。",
+DlgPasteSec		: "因为您的浏览器的安全设置原因，本编辑器不能直接访问您的剪贴板内容，您需要在本窗口重新粘贴一次。",
 DlgPasteIgnoreFont		: "忽略 Font 标签",
 DlgPasteRemoveStyles	: "清理 CSS 样式",
 
@@ -400,7 +400,7 @@ DlgSpellNoChanges		: "拼写检查完成：没有更改任何单词",
 DlgSpellOneChange		: "拼写检查完成：更改了一个单词",
 DlgSpellManyChanges		: "拼写检查完成：更改了 %1 个单词",
 
-IeSpellDownload			: "拼写检查插件还没安装，你是否想现在就下载？",
+IeSpellDownload			: "拼写检查插件还没安装，您是否想现在就下载？",
 
 // Button Dialog
 DlgButtonText		: "标签(值)",

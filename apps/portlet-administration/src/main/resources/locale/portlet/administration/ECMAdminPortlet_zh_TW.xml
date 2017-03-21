@@ -161,7 +161,7 @@
       <path-invalid>此路徑不正確。</path-invalid>
       <taxonomy-existed>類別樹已經存在。</taxonomy-existed>
       <taxonomy-node-existed>類別節點已存在。</taxonomy-node-existed>
-      <no-permission-add>你並沒有增加操作的權利。</no-permission-add>
+      <no-permission-add>您並沒有增加操作的權利。</no-permission-add>
       <not-created-tree>類別樹尚未建立。</not-created-tree>
     </msg>
   </UIActionForm>
@@ -561,7 +561,7 @@
     </action>
     <msg>
       <register-successfully>'{0}' 節點類型已成功註冊。</register-successfully>
-      <supertype-is-madatory>超級類型是強制性的當你註冊一個新的節點類型。請選擇至少一個超級類型。</supertype-is-madatory>
+      <supertype-is-madatory>超級類型是強制性的當您註冊一個新的節點類型。請選擇至少一個超級類型。</supertype-is-madatory>
       <register-failed>節點類型註冊不成功。它已經存在或超級類型無效。</register-failed>
       <nodeType-name>節點類型名稱是必填的。</nodeType-name>
       <fileName-invalid>檔案名稱中有一些不正確字元。</fileName-invalid>
@@ -1392,7 +1392,7 @@
     <msg>
       <checkbox-require>請至少選擇一個權限。</checkbox-require>
       <userOrGroup-required>保存權限之前，請先選擇使用者或群組。</userOrGroup-required>
-      <not-change-permission>你並沒有增加權限的權利。</not-change-permission>
+      <not-change-permission>您並沒有增加權限的權利。</not-change-permission>
       <access-denied>訪問被拒絕。您不能刪除此權限。</access-denied>
     </msg>
   </UIPermissionTreeForm>
@@ -1495,7 +1495,7 @@
     <msg>
       <checkbox-require>請至少選擇一個權限。</checkbox-require>
       <userOrGroup-required>保存權限之前，請先選擇使用者或群組。</userOrGroup-required>
-      <not-change-permission>你並沒有增加權限的權利。</not-change-permission>
+      <not-change-permission>您並沒有增加權限的權利。</not-change-permission>
       <access-denied>訪問被拒絕。您不能刪除此權限。</access-denied>
     </msg>
   </UIPermissionForm>
@@ -2380,7 +2380,7 @@
     </header>
     <msg>
       <undeletable>您不能刪除 '{0}' 因為它是預設的。</undeletable>
-      <confirm-delete>你確定要刪除這個面板？</confirm-delete>
+      <confirm-delete>您確定要刪除這個面板？</confirm-delete>
     </msg>
     <action>
       <title>
@@ -2532,7 +2532,7 @@
   </UIWorkspaceWizard>
   <UIRepositoryForm>
     <msg>
-      <not-complete-repository>正在創建儲存庫。你需要等待幾分鐘，然後創建另一個。</not-complete-repository>
+      <not-complete-repository>正在創建儲存庫。您需要等待幾分鐘，然後創建另一個。</not-complete-repository>
     </msg>
   </UIRepositoryForm>
   

@@ -161,7 +161,7 @@
       <path-invalid>此路径是无效的。</path-invalid>
       <taxonomy-existed>类别树已经存在。</taxonomy-existed>
       <taxonomy-node-existed>类别节点已存在。</taxonomy-node-existed>
-      <no-permission-add>你无权添加操作。</no-permission-add>
+      <no-permission-add>您无权添加操作。</no-permission-add>
       <not-created-tree>类别树尚未创建。</not-created-tree>
     </msg>
   </UIActionForm>
@@ -561,7 +561,7 @@
     </action>
     <msg>
       <register-successfully>'{0}' 节点类型已成功注册。</register-successfully>
-      <supertype-is-madatory>超级类型是强制性的当你注册一个新的节点类型。请选择至少一个超级类型。</supertype-is-madatory>
+      <supertype-is-madatory>超级类型是强制性的当您注册一个新的节点类型。请选择至少一个超级类型。</supertype-is-madatory>
       <register-failed>节点类型注册不成功。它要么已经存在或超类型无效。</register-failed>
       <nodeType-name>节点类型名称是必需的。</nodeType-name>
       <fileName-invalid>文件名称中有一些无效的字符。</fileName-invalid>
@@ -862,7 +862,7 @@
  <AddTab>新增</AddTab>
 </action>
 <msg>
- <confirm-delete>你确定要删除此选项卡吗?</confirm-delete>
+ <confirm-delete>您确定要删除此选项卡吗?</confirm-delete>
 </msg>
 <grid>
  <msg>
@@ -1392,7 +1392,7 @@
     <msg>
       <checkbox-require>请选择至少一个权限。</checkbox-require>
       <userOrGroup-required>请保存权限之前，选择用户或组。</userOrGroup-required>
-      <not-change-permission>你并没有添加权限的权利。</not-change-permission>
+      <not-change-permission>您并没有添加权限的权利。</not-change-permission>
       <access-denied>访问被拒绝。您不能删除此权限。</access-denied>
     </msg>
   </UIPermissionTreeForm>
@@ -1495,7 +1495,7 @@
     <msg>
       <checkbox-require>请选择至少一个权限。</checkbox-require>
       <userOrGroup-required>请保存权限之前，选择用户或组。</userOrGroup-required>
-      <not-change-permission>你并没有添加权限的权利。</not-change-permission>
+      <not-change-permission>您并没有添加权限的权利。</not-change-permission>
       <access-denied>访问被拒绝。您不能删除此权限。</access-denied>
     </msg>
   </UIPermissionForm>
@@ -2532,7 +2532,7 @@
   </UIWorkspaceWizard>
   <UIRepositoryForm>
     <msg>
-      <not-complete-repository>正在创建存储库。你需要等几分钟，才可以再创建另一个。</not-complete-repository>
+      <not-complete-repository>正在创建存储库。您需要等几分钟，才可以再创建另一个。</not-complete-repository>
     </msg>
   </UIRepositoryForm>
   

@@ -8,7 +8,7 @@
       <saved-successfully>{0}</saved-successfully>
       <not-support>無法載入該範本的 '{0}'。</not-support>
       <not-add-folder>只有檔案才可以增加到此資料夾。</not-add-folder>
-      <access-denied>訪問被拒絕。你在 '{0}' 沒有增加的權限。</access-denied>
+      <access-denied>訪問被拒絕。您在 '{0}' 沒有增加的權限。</access-denied>
       <path-not-found>路徑"{0}"是已刪除或無效。</path-not-found>
       <node-locked>節點"{0}"已被鎖定。請建立文檔之前，解鎖此節點。</node-locked>
       <node-isExist>此節點已存在於 '{0}'，不允許其它節點名稱相同。</node-isExist>
@@ -125,7 +125,7 @@
       <unable-add-action>無法增加此操作。</unable-add-action>
       <unable-add>無法增加此操作。此節點是根或您沒有權限。</unable-add>
       <not-support>對話方塊中"{0}' 不受支援。</not-support>
-      <no-permission-add>訪問被拒絕。你並沒有在這裡增加採取行動的權利。</no-permission-add>
+      <no-permission-add>訪問被拒絕。您並沒有在這裡增加採取行動的權利。</no-permission-add>
       <access-denied>訪問被拒絕。您沒有權限訪問此範本。</access-denied>
     </msg>
     <validator>

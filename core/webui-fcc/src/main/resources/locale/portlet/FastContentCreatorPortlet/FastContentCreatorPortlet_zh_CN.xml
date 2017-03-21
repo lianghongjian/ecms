@@ -8,7 +8,7 @@
       <saved-successfully>{0}</saved-successfully>
       <not-support>无法加载该'{0}'的模板。</not-support>
       <not-add-folder>只有文件才可以添加到此文件夹。</not-add-folder>
-      <access-denied>访问被拒绝。你请不要添加在 '{0}' 权限。</access-denied>
+      <access-denied>访问被拒绝。您请不要添加在 '{0}' 权限。</access-denied>
       <path-not-found>路径"{0}"是已删除或无效。</path-not-found>
       <node-locked>节点"{0}"已被锁定。请创建文档之前，解锁此节点。</node-locked>
       <node-isExist>此节点已存在于 '{0}'，不允许将其同级的名称相同。</node-isExist>
@@ -125,7 +125,7 @@
       <unable-add-action>无法添加此操作。</unable-add-action>
       <unable-add>无法添加此操作。此节点是根或您没有权限。</unable-add>
       <not-support>对话框中"{0}' 不受支持。</not-support>
-      <no-permission-add>访问被拒绝。你并没有添加在这里采取行动的权利。</no-permission-add>
+      <no-permission-add>访问被拒绝。您并没有添加在这里采取行动的权利。</no-permission-add>
       <access-denied>访问被拒绝。您没有权限访问此模板。</access-denied>
     </msg>
     <validator>

@@ -270,7 +270,7 @@
       <Close>#{word.close}</Close>
     </action>
     <msg>
-      <access-denied>你并没有将类别添加到此文档的权限。</access-denied>
+      <access-denied>您并没有将类别添加到此文档的权限。</access-denied>
       <exception>将类别添加到此文档时出错。</exception>
       <non-categories>类别是错误的。请选择适当的类别。</non-categories>
     </msg>
@@ -423,7 +423,7 @@
   
   <UIDocumentInfo>
     <msg>
-      <access-denied-exception>访问被拒绝。你也许不具有读取权限，或者该节点可能已删除或更改。</access-denied-exception>
+      <access-denied-exception>访问被拒绝。您也许不具有读取权限，或者该节点可能已删除或更改。</access-denied-exception>
     </msg>
   </UIDocumentInfo>
   <UIPortalApplication>

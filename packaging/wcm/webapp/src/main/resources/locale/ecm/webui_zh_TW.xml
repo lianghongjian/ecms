@@ -38,7 +38,7 @@
       <cannot-save>類別未被儲存。</cannot-save>
       <have-saved>類別已成功保存</have-saved>
       <non-categories>類別是錯誤的。請選擇適當的類別。</non-categories>
-      <confirm-delete>你想要刪除此類別嗎？</confirm-delete>
+      <confirm-delete>您想要刪除此類別嗎？</confirm-delete>
     </msg>
   </UISelectedCategoriesGrid>
   <!--

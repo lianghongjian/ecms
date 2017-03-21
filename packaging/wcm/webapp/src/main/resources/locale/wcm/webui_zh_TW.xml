@@ -270,7 +270,7 @@
       <Close>#{word.close}</Close>
     </action>
     <msg>
-      <access-denied>你並沒有將類別增加到此文件的權限。</access-denied>
+      <access-denied>您並沒有將類別增加到此文件的權限。</access-denied>
       <exception>將類別增加到此文件時出錯。</exception>
       <non-categories>類別是錯誤的。請選擇適當的類別。</non-categories>
     </msg>
@@ -423,7 +423,7 @@
   
   <UIDocumentInfo>
     <msg>
-      <access-denied-exception>訪問被拒絕。你也許不具有讀取權限，或者該節點可能已刪除或更改。</access-denied-exception>
+      <access-denied-exception>訪問被拒絕。您也許不具有讀取權限，或者該節點可能已刪除或更改。</access-denied-exception>
     </msg>
   </UIDocumentInfo>
   <UIPortalApplication>

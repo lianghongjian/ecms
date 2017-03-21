@@ -17,9 +17,9 @@
       <Cancel>#{word.cancel}</Cancel>
     </action>
     <msg>
-      <not-support>你不能評論此文件類型。</not-support>
+      <not-support>您不能評論此文件類型。</not-support>
       <not-checkedout>您必須簽出該節點之前對其進行評論。</not-checkedout>
-      <content-null>你不能發佈一個空的評論。</content-null>
+      <content-null>您不能發佈一個空的評論。</content-null>
     </msg>
   </UICommentForm>
   <!--
@@ -59,7 +59,7 @@
   <UIJCRExplorer>
     <msg>
       <refresh-session-success>會話已成功刷新。</refresh-session-success>
-      <no-node-history>你在根節點中。</no-node-history>
+      <no-node-history>您在根節點中。</no-node-history>
       <save-session-success>已保存所有更改。</save-session-success>
       <target-path-not-found>您不能訪問此節點，因為它已經不存在了，或者因為您沒有訪問它的權利。</target-path-not-found>
     </msg>
@@ -114,7 +114,7 @@
       <GeneralDrives>一般的磁碟機</GeneralDrives>
     </title>
     <msg>
-      <no-view-found>在你的磁碟機中存取的權限沒有檢視到可用的依據 '{0}'.</no-view-found>
+      <no-view-found>在您的磁碟機中存取的權限沒有檢視到可用的依據 '{0}'.</no-view-found>
       <access-denied>訪問被拒絕。您可能沒有在工作區中的磁碟機權限 '{0}' 。</access-denied>
       <workspace-not-exist>磁碟機 '{0}' 存儲在一個無法識別的工作區中。請重新配置此磁碟機。</workspace-not-exist>
     </msg>
@@ -336,8 +336,8 @@
       <not-found>沒有找到結果。</not-found>
       <keyword-not-allow>不允許使用此關鍵字。</keyword-not-allow>
       <is-not-referenable>節點"{0}"不能被引用。</is-not-referenable>
-      <access-denied>訪問被拒絕。你在此節點中沒有編輯權限。</access-denied>
-      <access-add-denied>訪問被拒絕。你在此節點中沒有增加權限。</access-add-denied>
+      <access-denied>訪問被拒絕。您在此節點中沒有編輯權限。</access-denied>
+      <access-add-denied>訪問被拒絕。您在此節點中沒有增加權限。</access-add-denied>
       <item-existed>此節點已存在。它不能有相同名稱作為其兄弟。</item-existed>
       <removed-hidden-mixin>您成功刪除隱藏混合。</removed-hidden-mixin>
       <added-hidden-mixin>您成功增加隱藏混合。</added-hidden-mixin>
@@ -361,29 +361,29 @@
   </UIActionBar>
   <UIPopupMenu>
     <msg>
-      <has-not-permission>訪問被拒絕。你在此節點中沒有增加權限。</has-not-permission>
+      <has-not-permission>訪問被拒絕。您在此節點中沒有增加權限。</has-not-permission>
       <has-not-edit-permission>訪問被拒絕。此節點中沒有編輯權限。請與管理員聯繫。</has-not-edit-permission>
       <cannot-login-node>您不能訪問並貼上在這裡的節點。</cannot-login-node>
       <cannot-paste-nodetype>不能貼上在這裡的節點。</cannot-paste-nodetype>
       <has-not-permission-unlok>您沒有權限來解鎖此節點。</has-not-permission-unlok>
-      <bound-exception>你並沒有重命名此節點的權限。請與管理員聯繫。</bound-exception>
+      <bound-exception>您並沒有重命名此節點的權限。請與管理員聯繫。</bound-exception>
       <bound-move-exception>對本身或它的子節點中，您不能移動節點。</bound-move-exception>
       <does-not-support-auditing>您不能啟動此節點上的審核。</does-not-support-auditing>
-      <can-not-rename-node>你並沒有重命名此節點的權限。請與管理員聯繫以獲取正確的權利。</can-not-rename-node>
-      <can-not-cut-node>你並沒有剪下此節點的權限。請與管理員聯繫。</can-not-cut-node>
+      <can-not-rename-node>您並沒有重命名此節點的權限。請與管理員聯繫以獲取正確的權利。</can-not-rename-node>
+      <can-not-cut-node>您並沒有剪下此節點的權限。請與管理員聯繫。</can-not-cut-node>
       <can-not-remove-node>您沒有權限刪除此節點。請與管理員聯繫。</can-not-remove-node>
-      <can-not-lock-node>你並沒有鎖定節點 {0} 的權限。請與管理員聯繫。</can-not-lock-node>
+      <can-not-lock-node>您並沒有鎖定節點 {0} 的權限。請與管理員聯繫。</can-not-lock-node>
       <can-not-unlock-node>您沒有權限來解鎖此節點。請與管理員聯繫。</can-not-unlock-node>
       <no-node>請至少選擇一個節點在貼上之前。</no-node>
-      <can-not-paste-node>你並沒有將節點移動的權限。請與管理員聯繫。</can-not-paste-node>
-      <can-not-move-node>你並沒有將節點移動的權限。請與管理員聯繫。</can-not-move-node>
-      <does-not-support-versioning>你並沒有將節點移動的權限。請與管理員聯繫。</does-not-support-versioning>
+      <can-not-paste-node>您並沒有將節點移動的權限。請與管理員聯繫。</can-not-paste-node>
+      <can-not-move-node>您並沒有將節點移動的權限。請與管理員聯繫。</can-not-move-node>
+      <does-not-support-versioning>您並沒有將節點移動的權限。請與管理員聯繫。</does-not-support-versioning>
       <path-not-found>此元素被刪除或更改。請按一下更新按鈕。</path-not-found>
-      <paste-lock-exception>你不能貼上 '{0}' 到此節點，因為來源或目標節點處於鎖定狀態或有關係的鎖定節點。</paste-lock-exception>
+      <paste-lock-exception>您不能貼上 '{0}' 到此節點，因為來源或目標節點處於鎖定狀態或有關係的鎖定節點。</paste-lock-exception>
       <can-not-checkin-node>您不能簽入此節點。請檢查您具有正確的權限。</can-not-checkin-node>
       <can-not-checkout-node>您不能簽出此節點。請檢查您具有正確的權限。</can-not-checkout-node>
       <move-constraint-exception>移動節點時出錯。</move-constraint-exception>
-      <not-lock-owner>因為你不是鎖的擁有者，您無法解鎖此節點。</not-lock-owner>
+      <not-lock-owner>因為您不是鎖的擁有者，您無法解鎖此節點。</not-lock-owner>
       <is-checked-in>請在重新命名之前檢查節點。</is-checked-in>
       <is-checked-in-lock>請鎖定之前檢查此節點。</is-checked-in-lock>
       <cant-lock>您不能鎖定此節點。</cant-lock>
@@ -394,7 +394,7 @@
       <current-node-not-allow-paste>您不能在當前節點上貼上複製的節點類型。</current-node-not-allow-paste>
       <copied-node-in-versioning>不能貼上複製的節點。這是版本控制。</copied-node-in-versioning>
       <parent-node-locked>您沒有權限來解鎖節點"{0}"。</parent-node-locked>
-      <this-node-locked-by-parent>你不能解鎖此節點。父或祖先節點被鎖定。</this-node-locked-by-parent>
+      <this-node-locked-by-parent>您不能解鎖此節點。父或祖先節點被鎖定。</this-node-locked-by-parent>
       <paste-node-same-name>您不能在目的檔案夾中貼上具有相同名稱作為一個節點的節點。</paste-node-same-name>
       <has-not-add-permission>您沒有權限，增加一個新節點。</has-not-add-permission>
       <node-cutting>節點正被剪下。您不能將其貼上這裡。</node-cutting>
@@ -430,7 +430,7 @@
       <fileName-error>檔案名稱不正確。</fileName-error>
       <constraint-violation>當前節點不允許您增加節點類型 '{0}'。</constraint-violation>
       <repository-exception>出現意外的錯誤。更多詳細資訊請與您的管理員聯繫。</repository-exception>
-      <repository-exception-permission>你並沒有到此節點增加一個新資料夾的權限。</repository-exception-permission>
+      <repository-exception-permission>您並沒有到此節點增加一個新資料夾的權限。</repository-exception-permission>
       <numberformat-exception>您不能保存此資料夾。提供的名稱必須是數字格式。</numberformat-exception>
       <!--DMS 2.4.x; ECM-3553-->
       <not-allow-sameNameSibling>您不能保存該資料夾。此節點不接受兩個節點具有相同的名稱。</not-allow-sameNameSibling>
@@ -456,8 +456,8 @@
       <confirm-delete-folder>確定要刪除 '{0}' 的資料夾及其所有子資料夾嗎?</confirm-delete-folder>
       
       <!-- Delte one node is in trash and have no relation -->
-      <confirm-delete-permanently>你確定你要永久地刪除該項目 '{0}'？</confirm-delete-permanently>
-      <confirm-delete-file-permanently>你確定你要永久地刪除該檔案 '{0}'？</confirm-delete-file-permanently>
+      <confirm-delete-permanently>您確定您要永久地刪除該項目 '{0}'？</confirm-delete-permanently>
+      <confirm-delete-file-permanently>您確定您要永久地刪除該檔案 '{0}'？</confirm-delete-file-permanently>
       <confirm-delete-folder-permanently>確定要永久刪除資料夾 '{0}' 和所有子資料夾嗎?</confirm-delete-folder-permanently>
       
       <!-- Delte one node is not in trash and have relations -->
@@ -478,7 +478,7 @@
       <confirm-delete-multi-nodes-generic-permanently>確定要永久刪除 {0} 個選定的項目嗎?</confirm-delete-multi-nodes-generic-permanently>  
       <confirm-delete-multi-nodes-file-permanently>確定要永久刪除 {0} 個選定檔案嗎?</confirm-delete-multi-nodes-file-permanently>
       <confirm-delete-multi-nodes-folder-permanently>確定要永久刪除 {0} 個選定資料夾和所有子資料夾嗎?</confirm-delete-multi-nodes-folder-permanently>
-      <confirm-delete-multi-nodes-generic-and-file-permanently>你確定你想要永久刪除選中的 {0} 項目和檔案？</confirm-delete-multi-nodes-generic-and-file-permanently>
+      <confirm-delete-multi-nodes-generic-and-file-permanently>您確定您想要永久刪除選中的 {0} 項目和檔案？</confirm-delete-multi-nodes-generic-and-file-permanently>
       <confirm-delete-multi-nodes-generic-and-folder-permanently>確定要永久刪除 {0} 個選定的項目、 資料夾和所有子資料夾嗎?</confirm-delete-multi-nodes-generic-and-folder-permanently>
       <confirm-delete-multi-nodes-file-and-folder-permanently>確定要永久刪除 {0} 個選定檔案、 資料夾和所有子資料夾嗎?</confirm-delete-multi-nodes-file-and-folder-permanently>
       <confirm-delete-multi-nodes-generic-and-file-and-folder-permanently>確定要永久刪除 {0} 個選定的項目、 檔案、 資料夾和所有子資料夾嗎?</confirm-delete-multi-nodes-generic-and-file-and-folder-permanently>
@@ -816,7 +816,7 @@
     <msg>
       <checkbox-require>請至少選擇一個權限。</checkbox-require>
       <userOrGroup-required>保存權限之前，請先選擇使用者或群組。</userOrGroup-required>
-      <not-change-permission>你並沒有增加權限的權利。</not-change-permission>
+      <not-change-permission>您並沒有增加權限的權利。</not-change-permission>
       <access-denied>訪問被拒絕。您不能刪除此權限。</access-denied>
     </msg>
   </UIPermissionForm>
@@ -916,7 +916,7 @@
     <msg>
       <not-support>沒有此節點的檢視範本。</not-support>
       <empty>沒有找到結果。</empty>
-      <access-denied>你不能打開此資料夾，因為它已經不存在或者您沒有使用它的權利。</access-denied>
+      <access-denied>您不能打開此資料夾，因為它已經不存在或者您沒有使用它的權利。</access-denied>
       <query-invalid>該查詢不正確。</query-invalid>
     </msg>
     <header>
@@ -1358,7 +1358,7 @@
       <cannot-remove-version>您不能刪除基礎版本。</cannot-remove-version>
       <confirm-delete>是否確定要刪除此版本?</confirm-delete>
       <not-checked-out>您必須在還原之前簽出此節點。</not-checked-out>
-      <invalid-item-state>你不能還原此版本，因為一個或多個項目被刪除或移動另一個會議期間。</invalid-item-state>
+      <invalid-item-state>您不能還原此版本，因為一個或多個項目被刪除或移動另一個會議期間。</invalid-item-state>
     </msg>
     <action>
       <close>#{word.close}</close>
@@ -1417,7 +1417,7 @@
   <UIActivateVersion>
     <label>
       <note>不啟動此節點的版本控制。</note>
-      <question>確定你想啟動它嗎?</question>
+      <question>確定您想啟動它嗎?</question>
       <button-active>啟動</button-active>
       <button-cancel>#{word.cancel}</button-cancel>
     </label>
@@ -1457,7 +1457,7 @@
   <UIActivateAuditing>
     <label>
       <note>此節點審核尚未啟動。</note>
-      <question>你確定你要啟動？</question>
+      <question>您確定您要啟動？</question>
     </label>
     <action>
       <activate>啟動</activate>
@@ -1501,7 +1501,7 @@
       <filetype-error>不能匯入已上載檔案。.Xml 檔可能無效。</filetype-error>
       <xml-invalid>There is an invalid character at position [row, column]:{0} in {1} file</xml-invalid>
       <mimetype-invalid>您只可以匯入.xml 或.ZIP 檔案。</mimetype-invalid>
-      <access-denied>訪問被拒絕。你不允許在那裡匯入。</access-denied>
+      <access-denied>訪問被拒絕。您不允許在那裡匯入。</access-denied>
       <constraint-violation-exception>無法匯入資料。此位置不允許類型 '{0}'。</constraint-violation-exception>
       <item-exists-exception>傳入的可引用節點在工作區中都有同一個 UUID 作為現有的節點。</item-exists-exception>
     </msg>
@@ -1587,7 +1587,7 @@
       <action>操作</action>
     </header>
     <msg>
-      <access-denied>訪問被拒絕。你此節點中沒有存取權限。</access-denied>
+      <access-denied>訪問被拒絕。您此節點中沒有存取權限。</access-denied>
       <confirm-delete>是否確定要刪除此引用?</confirm-delete>
     </msg>
     <action>
@@ -1710,7 +1710,7 @@
       <value-invalid>'{0}' 是所需的值。</value-invalid>
       <repository-exception>保存文件時出錯。</repository-exception>
       <!--DMS 2.4.x; ECM-3543-->
-      <repository-exception-permission>你並沒有到此節點增加一個新文件的權限。</repository-exception-permission>
+      <repository-exception-permission>您並沒有到此節點增加一個新文件的權限。</repository-exception-permission>
       <not-allowed-same-name-sibling>您不能儲存此文件。它不允許具有相同的名稱作為其兄弟。</not-allowed-same-name-sibling>
       <numberformat-exception>您不能儲存此文件。提供的名稱必須是數字格式。</numberformat-exception>
       <item-not-found>找不到項目。此節點 （或其原始檔） 可能已被刪除。請按一下更新按鈕。</item-not-found>
@@ -1806,7 +1806,7 @@
       <unable-add-action>不能增加此操作。</unable-add-action>
       <unable-add>不能增加此操作。此節點是根或您沒有權限。</unable-add>
       <not-support>'{0}'不支援對話方塊。</not-support>
-      <no-permission-add>訪問被拒絕。你並沒有在這裡增加採取行動的權利。</no-permission-add>
+      <no-permission-add>訪問被拒絕。您並沒有在這裡增加採取行動的權利。</no-permission-add>
       <access-denied>訪問被拒絕。您沒有權限訪問此範本。</access-denied>
       <lifecycle-invalid>您不能增加此操作。生命週期階段操作不正確。</lifecycle-invalid>
     </msg>
@@ -1843,7 +1843,7 @@
   <UIAddressBar>
     <msg>
       <path-not-found>找不到路徑。</path-not-found>
-      <access-denied>訪問被拒絕。你沒有讀取節點的權利。</access-denied>
+      <access-denied>訪問被拒絕。您沒有讀取節點的權利。</access-denied>
       <keyword-not-support>關鍵字不正確。不支援某些字元。</keyword-not-support>
     </msg>
     <label>
@@ -1875,7 +1875,7 @@
     <msg>
       <not-support>這種通知類型不受支援。請選擇另一種類型。</not-support>
       <watching-successfully>您正在觀看此文件。</watching-successfully>
-      <unwatching-successfully>你已經成功地離開觀看清單。</unwatching-successfully>
+      <unwatching-successfully>您已經成功地離開觀看清單。</unwatching-successfully>
       <node-iswatching>本文件已觀看。</node-iswatching>
     </msg>
   </UIWatchDocumentForm>
@@ -1936,7 +1936,7 @@
   </metadataForm>
   <UIViewMetadataTemplate>
     <msg>
-      <access-denied>訪問被拒絕。你不是擁有者或沒有此節點的編輯權限。</access-denied>
+      <access-denied>訪問被拒絕。您不是擁有者或沒有此節點的編輯權限。</access-denied>
     </msg>
   </UIViewMetadataTemplate>
   <!--
@@ -2292,7 +2292,7 @@
       <name-not-allowed>此名稱不允許。</name-not-allowed>
       <fileName-error>檔案名稱不正確。</fileName-error>
       <constraint-violation>不能將 '{0}' 節點類型增加到當前節點。</constraint-violation>
-      <repository-exception>訪問被拒絕。你並沒有將符號連結增加到此節點的權限。</repository-exception>
+      <repository-exception>訪問被拒絕。您並沒有將符號連結增加到此節點的權限。</repository-exception>
       <numberformat-exception>您不能保存此資料夾。提供的名稱必須是數字格式。</numberformat-exception>
       <path-node-invalid>請輸入路徑節點。</path-node-invalid>
       <path-node-not-allowed>此名稱不允許。</path-node-not-allowed>
@@ -2321,7 +2321,7 @@
       <name-not-allowed>此名稱不允許。</name-not-allowed>
       <fileName-error>檔案名稱不正確。</fileName-error>
       <constraint-violation>不能將 '{0}' 節點類型增加到當前節點。</constraint-violation>
-      <repository-exception>訪問被拒絕。你並沒有將符號連結增加到此節點的權限。</repository-exception>
+      <repository-exception>訪問被拒絕。您並沒有將符號連結增加到此節點的權限。</repository-exception>
       <numberformat-exception>您不能保存此資料夾。提供的名稱必須是數字格式。</numberformat-exception>
       <path-node-invalid>請輸入路徑節點。</path-node-invalid>
       <path-node-not-allowed>此名稱不允許。</path-node-not-allowed>
@@ -2356,7 +2356,7 @@
       <create-link-problem>您不能在 '{1}' 建立節點"{0}"的連結。</create-link-problem>
       <dest-node-is-link>目標節點"{0}"已經是一個符號連接，所以您不能建立一個符號連接在裡面。</dest-node-is-link>
       <selected-is-link>The selected node '{0}' is already a link. You cannot create a link that points to another link.</selected-is-link>
-      <confirm-create-link>你想要建立一個連結到此位置嗎？</confirm-create-link>
+      <confirm-create-link>您想要建立一個連結到此位置嗎？</confirm-create-link>
     </msg>
   </UIWorkingArea>
 
@@ -2529,7 +2529,7 @@
 
   <UIPopupMenu>
     <msg>
-      <can-not-unlock-node-is-checked-in>你不能解鎖因為節點"{0}"(或祖先) 已簽入。</can-not-unlock-node-is-checked-in>
+      <can-not-unlock-node-is-checked-in>您不能解鎖因為節點"{0}"(或祖先) 已簽入。</can-not-unlock-node-is-checked-in>
     </msg>
   </UIPopupMenu>
 
@@ -2553,7 +2553,7 @@
   </UIUploadForm>
   <UIActionBar>
     <msg>
-      <allow-setProperty>你必須為群組設定屬性。</allow-setProperty>
+      <allow-setProperty>您必須為群組設定屬性。</allow-setProperty>
     </msg>
   </UIActionBar>
 
@@ -2740,7 +2740,7 @@
 
   <EmptyTrashManageComponent>
     <msg>
-      <confirm-delete>你確定你要清空垃圾桶中的所有項目？</confirm-delete>
+      <confirm-delete>您確定您要清空垃圾桶中的所有項目？</confirm-delete>
     </msg>
   </EmptyTrashManageComponent>
   <UICategoryForm>
@@ -3002,7 +3002,7 @@
   
   <UIPublicationSchedule>
     <label>
-      <introduction>你可以安排您的文件發佈。選擇你想看到您發佈的文件日期</introduction>
+      <introduction>您可以安排您的文件發佈。選擇您想看到您發佈的文件日期</introduction>
       <no-schedule-info>沒有為您的文件發佈時程表</no-schedule-info>
       <UIPublicationPanelStartDateInput>Start Publication date</UIPublicationPanelStartDateInput>
       <UIPublicationPanelEndDateInput>End Publication date</UIPublicationPanelEndDateInput>
@@ -3080,7 +3080,7 @@
       <ShowDrives>顯示磁碟機</ShowDrives>
     </DrivesArea>
     <msg>
-      <no-view-found>你的磁碟機中沒有檢視應用的權限 '{0}'.</no-view-found>
+      <no-view-found>您的磁碟機中沒有檢視應用的權限 '{0}'.</no-view-found>
       <access-denied>訪問被拒絕。您可能沒有在工作區中的磁碟機權限 '{0}' 。</access-denied>
       <empty-drives>訪問被拒絕。此資料庫中有沒有磁碟機，或者您沒有權限訪問此儲存庫中的任何磁碟機。</empty-drives>
       <workspace-not-exist>磁碟機 '{0}' 存儲在一個無法識別的工作區中。請重新配置此磁碟機。</workspace-not-exist>
@@ -3094,9 +3094,9 @@
   </UIJcrExplorerEditForm>
   <UIDocumentForm>
   <msg>
-  <confirm-close>如果您關閉此表單，你所做的更改將會丟失。</confirm-close>
+  <confirm-close>如果您關閉此表單，您所做的更改將會丟失。</confirm-close>
   <confirm-changeType>如果您更改內容類型，您所做的更改將會丟失。</confirm-changeType>
-  <confirm-navigate>如果您導航到其他頁面，你所做的更改將會丟失。</confirm-navigate>
+  <confirm-navigate>如果您導航到其他頁面，您所做的更改將會丟失。</confirm-navigate>
   </msg>
   </UIDocumentForm>
   <UploadFileMimeTypesValidator>
@@ -3173,7 +3173,7 @@
     <Canceled>已取消</Canceled>
       <UploadNewVersion>Upload new version</UploadNewVersion>
     <Cancel>#{word.cancel}</Cancel>
-    <AbortAllConfirmation>你想要中止進展中的所有檔案嗎？</AbortAllConfirmation>
+    <AbortAllConfirmation>您想要中止進展中的所有檔案嗎？</AbortAllConfirmation>
   </label>
   </UIMultiUpload>
   <UIDocumentNodeList>
@@ -3181,7 +3181,7 @@
   <CreatedOn>建立於</CreatedOn>
   <Updated>更新</Updated>
   <by>由</by>
-  <you>你</you>
+  <you>您</you>
   </label>
   </UIDocumentNodeList>
   <FileView>
