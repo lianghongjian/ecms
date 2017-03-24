@@ -411,7 +411,7 @@ if(uicomponent.isNotModernBrowser()) {
                             </a>
 
 
-                            <a id="secondaryToolbarToggle" class="actionIcon" data-placement="left" rel="tooltip" data-original-title="Tools" tabindex="17" data-l10n-id="tools">
+                            <a id="secondaryToolbarToggle" class="actionIcon" data-placement="left" rel="tooltip" data-original-title="工具" tabindex="17" data-l10n-id="tools">
                                 <i class="uiIconMoreAction uiIconLightGray"></i>
                             </a>
                         </div>
