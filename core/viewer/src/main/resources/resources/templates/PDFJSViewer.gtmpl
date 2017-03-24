@@ -406,7 +406,7 @@ if(uicomponent.isNotModernBrowser()) {
                             <a id="secondaryDownload" class="actionIcon" data-placement="bottom" rel="tooltip" data-original-title="下载" href="<%=downloadLink%>" tabindex="12" data-l10n-id="download">
                                 <i class="uiIconDownload uiIconLightGray"></i>
                             </a>
-                            <a id="presentationMode" class="actionIcon" data-placement="bottom" rel="tooltip" data-original-title="切换到呈现模式" tabindex="13" data-l10n-id="presentation_mode">
+                            <a id="presentationMode" class="actionIcon" data-placement="bottom" rel="tooltip" data-original-title="全屏" tabindex="13" data-l10n-id="presentation_mode">
                                 <i class="uiIconEcmsExpand uiIconLightGray"></i>
                             </a>
 
